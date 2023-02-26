@@ -36,6 +36,7 @@
     {"id":{"name":"Sprite_Down","path":"sprites/Sprite_Down/Sprite_Down.yy",},"order":1,},
     {"id":{"name":"Sprite_Left","path":"sprites/Sprite_Left/Sprite_Left.yy",},"order":2,},
     {"id":{"name":"Object_EnergyDrink","path":"objects/Object_EnergyDrink/Object_EnergyDrink.yy",},"order":1,},
+    {"id":{"name":"Object_Manager","path":"objects/Object_Manager/Object_Manager.yy",},"order":2,},
     {"id":{"name":"Sprite_Up","path":"sprites/Sprite_Up/Sprite_Up.yy",},"order":8,},
     {"id":{"name":"Sprite_Idle","path":"sprites/Sprite_Idle/Sprite_Idle.yy",},"order":0,},
     {"id":{"name":"Sprite_RightDown","path":"sprites/Sprite_RightDown/Sprite_RightDown.yy",},"order":6,},

@@ -20,6 +20,7 @@
     {"name":"Sprite_Down","order":1,"path":"sprites/Sprite_Down/Sprite_Down.yy",},
     {"name":"Sprite_Left","order":2,"path":"sprites/Sprite_Left/Sprite_Left.yy",},
     {"name":"Object_EnergyDrink","order":1,"path":"objects/Object_EnergyDrink/Object_EnergyDrink.yy",},
+    {"name":"Object_Manager","order":2,"path":"objects/Object_Manager/Object_Manager.yy",},
     {"name":"Sprite_Up","order":8,"path":"sprites/Sprite_Up/Sprite_Up.yy",},
     {"name":"Sprite_RightDown","order":6,"path":"sprites/Sprite_RightDown/Sprite_RightDown.yy",},
     {"name":"Sprite_LeftDown","order":3,"path":"sprites/Sprite_LeftDown/Sprite_LeftDown.yy",},
