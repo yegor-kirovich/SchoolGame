@@ -2,22 +2,22 @@ global.mouse_coord_x = mouse_x - x  // Смещение обе переменн�
 global.mouse_coord_y = y - mouse_y // находился в (0, 0) СО
 
 
-var _left = keyboard_check(ord("A"));
-var _right = keyboard_check(ord("D"));
-var _up = keyboard_check(ord("W"));
-var _down = keyboard_check(ord("S"));
+var A = keyboard_check(ord("A"));
+var D = keyboard_check(ord("D"));
+var W = keyboard_check(ord("W"));
+var S = keyboard_check(ord("S"));
 
-var _hspd = _right - _left;
-var _vspd = _down - _up;
+var hor = D - A;
+var ver = S - W;
 
-if (_hspd != 0 or _vspd != 0)
+if (hor != 0 or ver != 0)
 {
-    var _spd = 4;
-    var _dir = point_direction(0, 0, _hspd, _vspd);
-    var _xadd = lengthdir_x(_spd, _dir);
-    var _yadd = lengthdir_y(_spd, _dir);
-    x = x + _xadd;
-    y = y + _yadd;
+    var spd = 4;
+    var ang = point_direction(0, 0, hor, ver);
+    var xadd = lengthdir_x(spd, ang);
+    var yadd = lengthdir_y(spd, ang);
+    x = x + xadd;
+    y = y + yadd;
 }
 
 
