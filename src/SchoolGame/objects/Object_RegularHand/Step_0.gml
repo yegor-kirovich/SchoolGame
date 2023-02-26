@@ -1,10 +1,3 @@
-/// @description Вставьте описание здесь
-// Вы можете записать свой код в этом редакторе
-if not global.hit{
-	sprite_index = Sprite_Ruler
-	image_angle = point_direction(x, y, mouse_x, mouse_y) + 90
-}
-
 var _left = keyboard_check(ord("A"));
 var _right = keyboard_check(ord("D"));
 var _up = keyboard_check(ord("W"));
