@@ -42,6 +42,7 @@
     {"id":{"name":"Sprite_Up","path":"sprites/Sprite_Up/Sprite_Up.yy",},"order":8,},
     {"id":{"name":"Sprite_Idle","path":"sprites/Sprite_Idle/Sprite_Idle.yy",},"order":0,},
     {"id":{"name":"Sprite_RightDown","path":"sprites/Sprite_RightDown/Sprite_RightDown.yy",},"order":6,},
+    {"id":{"name":"Sprite_RulerHit","path":"sprites/Sprite_RulerHit/Sprite_RulerHit.yy",},"order":4,},
     {"id":{"name":"Sprite_LeftDown","path":"sprites/Sprite_LeftDown/Sprite_LeftDown.yy",},"order":3,},
     {"id":{"name":"Sprite_EnergyDrink","path":"sprites/Sprite_EnergyDrink/Sprite_EnergyDrink.yy",},"order":1,},
     {"id":{"name":"Sprite_RightUp","path":"sprites/Sprite_RightUp/Sprite_RightUp.yy",},"order":7,},
