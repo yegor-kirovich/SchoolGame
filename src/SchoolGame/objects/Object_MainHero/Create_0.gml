@@ -11,3 +11,6 @@ center_border = 80
 
 global.right = true
 global.right_weapon = true
+
+instance_create_depth(x + 40, y, 0, Object_Ruler)
+instance_create_depth(x - 40, y, 0, Object_RegularHand)

@@ -25,6 +25,22 @@ if not global.right and global.mouse_coord_x > 0{
 }
 
 
+if global.right and not global.right_weapon{
+	instance_destroy(Object_RegularHand)
+	instance_destroy(Object_Ruler)
+	instance_create_depth(x + 40, y, 0, Object_Ruler)
+	instance_create_depth(x - 40, y, 0, Object_RegularHand)
+	global.right_weapon = true
+}
+else if not global.right and global.right_weapon{
+	instance_destroy(Object_RegularHand)
+	instance_destroy(Object_Ruler)
+	instance_create_depth(x - 40, y, 0, Object_Ruler)
+	instance_create_depth(x + 40, y, 0, Object_RegularHand)
+	global.right_weapon = false
+}
+
+
 if(global.in_center_x and global.in_center_y){
 	sprite_index = Sprite_Idle
 }
