@@ -2,23 +2,7 @@ global.mouse_coord_x = mouse_x - x  // Смещение обе переменн�
 global.mouse_coord_y = y - mouse_y // находился в (0, 0) СО
 
 
-var A = keyboard_check(ord("A"));
-var D = keyboard_check(ord("D"));
-var W = keyboard_check(ord("W"));
-var S = keyboard_check(ord("S"));
-
-var hor = D - A;
-var ver = S - W;
-
-if (hor != 0 or ver != 0)
-{
-    var spd = 4;
-    var ang = point_direction(0, 0, hor, ver);
-    var xadd = lengthdir_x(spd, ang);
-    var yadd = lengthdir_y(spd, ang);
-    x = x + xadd;
-    y = y + yadd;
-}
+mplayer_move(player_speed)
 
 
 if(-center_border <= global.mouse_coord_x and global.mouse_coord_x <= center_border){

@@ -1,6 +1,8 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
 
+player_speed = 4
+
 global.hp = 3
 global.mana = 5
 
