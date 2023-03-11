@@ -2,7 +2,8 @@
 // Вы можете записать свой код в этом редакторе
 if not global.hit{
 	sprite_index = Sprite_Ruler
-	image_angle = point_direction(x, y, mouse_x, mouse_y) + 90
+	a = point_direction(x, y, mouse_x, mouse_y)
+	image_angle = a - a % 10 + 90
 }
 
 var A = keyboard_check(ord("A"));
