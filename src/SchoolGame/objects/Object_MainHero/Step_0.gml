@@ -28,13 +28,13 @@ if not global.right and global.mouse_coord_x > 0{
 
 
 if global.right and not global.right_weapon and not global.hit{
-	Ruler.x = x + 40;
-	Hand.x = x - 40;
+	Ruler.x = x + 31;
+	Hand.x = x - 31;
 	global.right_weapon = true
 }
 else if not global.right and global.right_weapon and not global.hit{
-	Ruler.x = x - 40;
-	Hand.x = x + 40;
+	Ruler.x = x - 31;
+	Hand.x = x + 31;
 	global.right_weapon = false
 }
 

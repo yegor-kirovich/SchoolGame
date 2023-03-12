@@ -1,6 +1,9 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-//global.hit = true
-//image_speed = 0.4
-//sprite_index = Sprite_RulerHit
-//alarm[0] = 30
+var w = 55 * global.hp
+
+if(w >= 277){
+	w = 277
+}
+
+draw_sprite_part(Sprite_HP, 2, 0, 0, w, 35, x + 135, y + 58)

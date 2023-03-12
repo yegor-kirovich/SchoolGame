@@ -3,7 +3,8 @@
 
 global.player_speed = 7
 
-global.hp = 3
+global.hp_max = 5
+global.hp = global.hp_max
 global.mana = 5
 
 global.in_center_x = true
@@ -17,5 +18,5 @@ global.mouse_coord_y = y - mouse_y
 global.right = true
 global.right_weapon = true
 
-Ruler = instance_create_layer(x + 40, y, "INSTANCES", Object_Ruler)
-Hand = instance_create_layer(x - 40, y, "INSTANCES", Object_RegularHand)
+Ruler = instance_create_layer(x + 31, y + 25, "INSTANCES", Object_Ruler)
+Hand = instance_create_layer(x - 31, y + 25, "INSTANCES", Object_RegularHand)
