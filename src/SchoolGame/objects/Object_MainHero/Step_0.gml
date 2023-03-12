@@ -2,7 +2,7 @@ global.mouse_coord_x = mouse_x - x  // Смещение обе переменн�
 global.mouse_coord_y = y - mouse_y // находился в (0, 0) СО
 
 
-mplayer_move(player_speed)
+mplayer_move(global.player_speed)
 
 
 if(-center_border <= global.mouse_coord_x and global.mouse_coord_x <= center_border){
