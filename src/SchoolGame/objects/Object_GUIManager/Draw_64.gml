@@ -6,4 +6,6 @@ if(w >= 277){
 	w = 277
 }
 
+
 draw_sprite_part(Sprite_HP, 2, 0, 0, w, 35, x + 135, y + 58)
+draw_sprite(Sprite_HPBarEdge, 1, x, y)

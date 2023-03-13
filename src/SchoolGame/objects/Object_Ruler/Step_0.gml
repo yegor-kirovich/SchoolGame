@@ -5,22 +5,22 @@ if not global.hit{
 	a = point_direction(x, y, mouse_x, mouse_y)
 	
 	if global.in_center_x and global.in_center_y
-		image_angle = -(a - a % 10)
+		image_angle = -a + a % 10
 	else
 		image_angle = a - a % 10
 	
-	if global.right_weapon
-		max(0, min(180, image_angle))
-	else
-		image_angle = min(max(image_angle, 180), 360)
+	if global.right_weapon{
+		if a > 100 and a < 180
+			image_angle = 100
+		else if a > 180 and a < 260
+			image_angle = 260
+	}else
+		image_angle = min(max(image_angle, 80), 280)
 	
 	if global.in_center_x and global.in_center_y
-		image_angle = -(a - a % 10)
-	
-	
-		
-	var depth_flag = global.mouse_coord_y > 0;        
-	depth = Object_MainHero.depth + depth_flag;
+		image_angle = -a + a % 10
 }
+     
+depth = Object_MainHero.depth + 2 * (a > 0 and a < 180);
 
 mplayer_move(global.player_speed)
