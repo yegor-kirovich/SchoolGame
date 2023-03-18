@@ -57,6 +57,7 @@
     {"id":{"name":"Object_RegularHand","path":"objects/Object_RegularHand/Object_RegularHand.yy",},},
     {"id":{"name":"Sprite_LeftDown","path":"sprites/Sprite_LeftDown/Sprite_LeftDown.yy",},},
     {"id":{"name":"Sprite_LeftUp","path":"sprites/Sprite_LeftUp/Sprite_LeftUp.yy",},},
+    {"id":{"name":"work_with_weapon","path":"scripts/work_with_weapon/work_with_weapon.yy",},},
     {"id":{"name":"Sprite_Right","path":"sprites/Sprite_Right/Sprite_Right.yy",},},
   ],
   "RoomOrderNodes": [
