@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Sprite_Group.Blocks_for_choose_weapon",
+    "path": "folders/Sprites/Sprite_Group.Blocks_for_choose_weapon.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

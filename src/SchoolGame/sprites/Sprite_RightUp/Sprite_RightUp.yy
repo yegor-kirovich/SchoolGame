@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Sprite_Group.Player_Idle",
-    "path": "folders/Sprites/Sprite_Group.Player_Idle.yy",
+    "name": "Sprite_Group.Player_sprites",
+    "path": "folders/Sprites/Sprite_Group.Blocks_for_choose_weapon/Sprite_Group.Player_sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
