@@ -4,3 +4,7 @@ if global.touch_shop{
 	Object_ChooseWeapon.x = camera_get_view_x(view_camera[0])
 	Object_ChooseWeapon.y = camera_get_view_y(view_camera[0])
 }
+else{
+	Object_ChooseWeapon.x = -1000
+	Object_ChooseWeapon.y = -1000
+}

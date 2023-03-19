@@ -24,7 +24,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprite_Group.Blocks_for_choose_weapon","folderPath":"folders/Sprites/Sprite_Group.Blocks_for_choose_weapon.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprite_Group.Player_sprites","folderPath":"folders/Sprites/Sprite_Group.Blocks_for_choose_weapon/Sprite_Group.Player_sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprite_Group.Player_sprites","folderPath":"folders/Sprites/Sprite_Group.Player_sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
