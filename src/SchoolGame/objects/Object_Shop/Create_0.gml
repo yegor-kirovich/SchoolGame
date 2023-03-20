@@ -1,3 +1,4 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
 global.touch_shop = false
+allObjects[0, 0] = noone

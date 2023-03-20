@@ -15,10 +15,10 @@ center_border = 80
 global.mouse_coord_x = mouse_x - x 
 global.mouse_coord_y = y - mouse_y
 
-hand_center_distance_x = 30
+global.hand_center_distance_x = 30
 
 global.right = true
 global.right_weapon = true
 
-instance_create_layer(x + hand_center_distance_x, y + 25, "INSTANCES", Object_Ruler)
-instance_create_layer(x - hand_center_distance_x, y + 25, "INSTANCES", Object_RegularHand)
+instance_create_layer(x + global.hand_center_distance_x, y + 25, "INSTANCES", Object_Ruler)
+instance_create_layer(x - global.hand_center_distance_x, y + 25, "INSTANCES", Object_RegularHand)

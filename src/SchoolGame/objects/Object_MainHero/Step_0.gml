@@ -31,15 +31,15 @@ if not global.right and global.mouse_coord_x > 0{
 if global.right and not global.right_weapon and not global.hit{
  instance_destroy(Object_RegularHand)
  instance_destroy(Object_Ruler)
- instance_create_depth(x + hand_center_distance_x, y + 30, 0, Object_Ruler)
- instance_create_depth(x - hand_center_distance_x, y + 30, 0, Object_RegularHand)
+ instance_create_depth(x + global.hand_center_distance_x, y + 30, 0, Object_Ruler)
+ instance_create_depth(x - global.hand_center_distance_x, y + 30, 0, Object_RegularHand)
  global.right_weapon = true
 }
 else if not global.right and global.right_weapon and not global.hit{
  instance_destroy(Object_RegularHand)
  instance_destroy(Object_Ruler)
- instance_create_depth(x - hand_center_distance_x, y + 30, 0, Object_Ruler)
- instance_create_depth(x + hand_center_distance_x, y + 30, 0, Object_RegularHand)
+ instance_create_depth(x - global.hand_center_distance_x, y + 30, 0, Object_Ruler)
+ instance_create_depth(x + global.hand_center_distance_x, y + 30, 0, Object_RegularHand)
  global.right_weapon = false
 }
 

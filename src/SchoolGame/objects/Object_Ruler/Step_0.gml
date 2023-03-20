@@ -7,6 +7,4 @@ if not global.hit{
      
 depth = Object_MainHero.depth + 2 * (a > 0 and a < 180);
 
-//global.right_weapon
-
 mplayer_move(global.player_speed)

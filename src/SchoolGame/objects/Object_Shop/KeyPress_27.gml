@@ -1,11 +1,10 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-
-Ruler.x = x + 15
-Ruler.y = y + 15
-
-Papers.x = x + 330
-Papers.y = y + 15
-
-Smoke.x = x + 645
-Smoke.y = y + 15
+if global.touch_shop{
+	global.touch_shop = false
+	instance_activate_all()
+	Object_MainHero.y += 20
+	Object_Ruler.y += 20
+	
+	allObjects = 0
+}
