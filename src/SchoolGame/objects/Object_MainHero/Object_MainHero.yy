@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Group.Main_Hero_Objects",
+    "path": "folders/Objects/Group.Main_Hero_Objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,

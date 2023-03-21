@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Group.Weapon_GUI",
+    "path": "folders/Objects/Group.Weapon_GUI.yy",
   },
   "parentObjectId": null,
   "persistent": false,

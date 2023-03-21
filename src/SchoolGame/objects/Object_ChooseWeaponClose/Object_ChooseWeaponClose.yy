@@ -1,16 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object_Camera",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-  ],
+  "name": "Object_ChooseWeaponClose",
+  "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Group.System_Objects",
-    "path": "folders/Objects/Group.System_Objects.yy",
+    "name": "Group.Weapon_GUI",
+    "path": "folders/Objects/Group.Weapon_GUI.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sprite_Close",
+    "path": "sprites/Sprite_Close/Sprite_Close.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

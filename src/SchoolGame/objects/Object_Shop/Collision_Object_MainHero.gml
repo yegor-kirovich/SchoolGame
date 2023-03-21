@@ -24,4 +24,5 @@ if not global.touch_shop{
 	instance_activate_object(Object_GUIManager)
 	instance_activate_object(Object_ChooseWeapon)
 	instance_activate_object(Object_ChWeBlock)
+	instance_activate_object(Object_ChooseWeaponClose)
 }

@@ -5,6 +5,6 @@ if global.touch_shop{
 	instance_activate_all()
 	Object_MainHero.y += 20
 	Object_Ruler.y += 20
-	
+	global.a = 1
 	allObjects = 0
 }
