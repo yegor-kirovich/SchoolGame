@@ -6,23 +6,23 @@ function work_with_weapon(){
 		if (110 >= a or 250 <= a){
 			image_angle = a
 		}
-	else if global.mouse_coord_y > 0{
-		image_angle = 110
-	}
-	else{
-		image_angle = 250
-	}
+		else if global.mouse_coord_y > 0{
+			image_angle = 110
+		}
+		else{
+			image_angle = 250
+		}
 	}
  
 	if not global.right_weapon{
 		if (70 <= a and a <= 290){
 			image_angle = a
 		}
-	else if global.mouse_coord_y > 0{
-		image_angle = 70
-	}
-	else{
-		image_angle = 290
-	}
+		else if global.mouse_coord_y > 0{
+			image_angle = 70
+		}
+		else{
+			image_angle = 290
+		}
 	}
 }
