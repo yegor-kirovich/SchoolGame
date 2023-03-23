@@ -13,3 +13,12 @@ if sprite_index == Sprite_ChSmokeBlock{
 	sprite_hover = Sprite_ChSmokeBlock_hover
 }
 
+if inBlock and mouse_y >= y + 460{
+	sprite_index = sprite_default
+}
+else if inBlock and mouse_y < y + 460{
+	sprite_index = sprite_hover
+}
+else{
+	sprite_index = sprite_default
+}

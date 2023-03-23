@@ -2,6 +2,7 @@
 // Вы можете записать свой код в этом редакторе
 if not global.touch_shop{
 	global.touch_shop = true
+	global.first_touch = true
 	var offset = 0
 	for(var i = 0; i < instance_count; ++i){
 		var obj = instance_find(all, i);
@@ -25,4 +26,5 @@ if not global.touch_shop{
 	instance_activate_object(Object_ChooseWeapon)
 	instance_activate_object(Object_ChWeBlock)
 	instance_activate_object(Object_ChooseWeaponClose)
+	
 }

@@ -4,9 +4,9 @@
   "name": "Sprite_Shop",
   "bbox_bottom": 546,
   "bbox_left": 93,
-  "bbox_right": 589,
-  "bbox_top": 320,
-  "bboxMode": 0,
+  "bbox_right": 527,
+  "bbox_top": 525,
+  "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Sprite_Group.Blocks_for_choose_weapon",
+    "path": "folders/Sprites/Sprite_Group.Blocks_for_choose_weapon.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

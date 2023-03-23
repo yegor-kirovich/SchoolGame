@@ -1,5 +1,11 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
+if sprite_index == Sprite_ChRulerBlock_hover{
+	global.weapon = "ruler"
+	global.Right_Hand = Object_Ruler
+	global.ifChoose = true
+}
+
 if global.touch_shop{
 	global.touch_shop = false
 	instance_activate_all()

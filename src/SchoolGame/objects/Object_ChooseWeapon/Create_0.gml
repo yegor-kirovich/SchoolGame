@@ -14,3 +14,6 @@ Ruler.depth = -1
 Papers.depth = -1
 Smoke.depth = -1
 Close.depth = -2
+
+global.first_touch = false
+inBlock = false
