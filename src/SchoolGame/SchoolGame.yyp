@@ -48,6 +48,7 @@
     {"id":{"name":"Object_GUIManager","path":"objects/Object_GUIManager/Object_GUIManager.yy",},},
     {"id":{"name":"Object_Enemy","path":"objects/Object_Enemy/Object_Enemy.yy",},},
     {"id":{"name":"Object_Shop","path":"objects/Object_Shop/Object_Shop.yy",},},
+    {"id":{"name":"Sprite_Chains","path":"sprites/Sprite_Chains/Sprite_Chains.yy",},},
     {"id":{"name":"Sprite_Idle","path":"sprites/Sprite_Idle/Sprite_Idle.yy",},},
     {"id":{"name":"Sprite_RegularHand","path":"sprites/Sprite_RegularHand/Sprite_RegularHand.yy",},},
     {"id":{"name":"Sprite_HP","path":"sprites/Sprite_HP/Sprite_HP.yy",},},

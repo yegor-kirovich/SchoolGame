@@ -30,6 +30,7 @@
     {"name":"Object_GUIManager","order":1,"path":"objects/Object_GUIManager/Object_GUIManager.yy",},
     {"name":"Object_Enemy","order":5,"path":"objects/Object_Enemy/Object_Enemy.yy",},
     {"name":"Object_Shop","order":2,"path":"objects/Object_Shop/Object_Shop.yy",},
+    {"name":"Sprite_Chains","order":8,"path":"sprites/Sprite_Chains/Sprite_Chains.yy",},
     {"name":"Sprite_Idle","order":10,"path":"sprites/Sprite_Idle/Sprite_Idle.yy",},
     {"name":"Sprite_RegularHand","order":1,"path":"sprites/Sprite_RegularHand/Sprite_RegularHand.yy",},
     {"name":"Sprite_HP","order":5,"path":"sprites/Sprite_HP/Sprite_HP.yy",},

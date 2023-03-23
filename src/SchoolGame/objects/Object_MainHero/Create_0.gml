@@ -26,3 +26,5 @@ global.weapon = noone
 global.Left_Hand = Object_RegularHand
 global.Right_Hand = Object_RegularHand
 hands_isDraw = false
+
+global.level = 1
