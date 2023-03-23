@@ -38,14 +38,10 @@ if global.weapon == "ruler"{
 		global.Left_Hand = storage
 		
 		// Также изменяется переменная показывающая положения оружия
-		if global.right_weapon{
-			global.right_weapon = false
-		}
-		else{
-			global.right_weapon = true
-		}
+		global.right_weapon = not global.right_weapon
 		
 		// Удаление старых рук для последуйщего изменения
+		//swap lalala
 		instance_destroy(Object_RegularHand)
 		instance_destroy(Object_Ruler)
 		hands_isDraw = false
@@ -60,31 +56,7 @@ if not hands_isDraw{
 }
 
 
+var sprites = [Sprite_Right, Sprite_RightUp, Sprite_Up, Sprite_LeftUp, Sprite_Left, Sprite_LeftDown, Sprite_Down, Sprite_RightDown]
 
-if(global.in_center_x and global.in_center_y){
-	sprite_index = Sprite_Idle
-}
-else if(global.in_center_y and global.mouse_coord_x > center_border){
-	sprite_index = Sprite_Right
-}
-else if(global.in_center_y and global.mouse_coord_x < -center_border){
-	sprite_index = Sprite_Left
-}
-else if(global.in_center_x and global.mouse_coord_y > center_border){
-	sprite_index = Sprite_Up
-}
-else if(global.in_center_x and global.mouse_coord_y < -center_border){
-	sprite_index = Sprite_Down
-}
-else if(global.mouse_coord_x > center_border and global.mouse_coord_y > center_border){
-	sprite_index = Sprite_RightUp
-}
-else if(global.mouse_coord_x > center_border and global.mouse_coord_y < -center_border){
-	sprite_index = Sprite_RightDown
-}
-else if(global.mouse_coord_x < -center_border and global.mouse_coord_y > center_border){
-	sprite_index = Sprite_LeftUp
-}
-else if(global.mouse_coord_x < -center_border and global.mouse_coord_y < -center_border){
-	sprite_index = Sprite_LeftDown
-}
+global.a = point_direction(x, y, mouse_x, mouse_y)
+sprite_index = sprites[global.a / 45]

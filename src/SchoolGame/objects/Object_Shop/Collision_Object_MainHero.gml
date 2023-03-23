@@ -4,7 +4,7 @@ if not global.touch_shop{
 	global.touch_shop = true
 	global.first_touch = true
 	var offset = 0
-	for(var i = 0; i < instance_count; ++i){
+	for(var i = 0; i < instance_count; i++){
 		var obj = instance_find(all, i);
 		if obj.sprite_index != -1 and obj != Object_ChooseWeapon and obj != Object_ChWeBlock{
 			allObjects[i - offset, 0] = obj.sprite_index
@@ -18,7 +18,7 @@ if not global.touch_shop{
 			allObjects[i - offset, 8] = obj.image_alpha
 		}
 		else{
-			++offset
+			offset++
 		}
 	}
 	instance_deactivate_all(true)
@@ -26,5 +26,4 @@ if not global.touch_shop{
 	instance_activate_object(Object_ChooseWeapon)
 	instance_activate_object(Object_ChWeBlock)
 	instance_activate_object(Object_ChooseWeaponClose)
-	
 }

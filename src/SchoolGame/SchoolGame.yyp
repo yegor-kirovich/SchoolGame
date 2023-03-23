@@ -43,7 +43,6 @@
     {"id":{"name":"Sprite_ChPapersBlock","path":"sprites/Sprite_ChPapersBlock/Sprite_ChPapersBlock.yy",},},
     {"id":{"name":"Sprite_Down","path":"sprites/Sprite_Down/Sprite_Down.yy",},},
     {"id":{"name":"Sprite_Left","path":"sprites/Sprite_Left/Sprite_Left.yy",},},
-    {"id":{"name":"change_weapon","path":"scripts/change_weapon/change_weapon.yy",},},
     {"id":{"name":"Object_EnergyDrink","path":"objects/Object_EnergyDrink/Object_EnergyDrink.yy",},},
     {"id":{"name":"Object_GUIManager","path":"objects/Object_GUIManager/Object_GUIManager.yy",},},
     {"id":{"name":"Object_Enemy","path":"objects/Object_Enemy/Object_Enemy.yy",},},

@@ -1,5 +1,6 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
+global.a = point_direction(x, y, mouse_x, mouse_y)
 
 global.player_speed = 7
 
@@ -15,7 +16,7 @@ center_border = 80
 global.mouse_coord_x = mouse_x - x 
 global.mouse_coord_y = y - mouse_y
 
-hand_diff = [30, 25]
+hand_diff = [30, 27]
 
 global.hit = false
 global.right = true

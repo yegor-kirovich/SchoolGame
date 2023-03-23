@@ -25,7 +25,6 @@
     {"name":"Sprite_ChPapersBlock","order":2,"path":"sprites/Sprite_ChPapersBlock/Sprite_ChPapersBlock.yy",},
     {"name":"Sprite_Down","order":1,"path":"sprites/Sprite_Down/Sprite_Down.yy",},
     {"name":"Sprite_Left","order":2,"path":"sprites/Sprite_Left/Sprite_Left.yy",},
-    {"name":"change_weapon","order":2,"path":"scripts/change_weapon/change_weapon.yy",},
     {"name":"Object_EnergyDrink","order":1,"path":"objects/Object_EnergyDrink/Object_EnergyDrink.yy",},
     {"name":"Object_GUIManager","order":1,"path":"objects/Object_GUIManager/Object_GUIManager.yy",},
     {"name":"Object_Enemy","order":5,"path":"objects/Object_Enemy/Object_Enemy.yy",},

@@ -4,7 +4,8 @@ if not global.hit{
 	sprite_index = Sprite_Ruler
 	work_with_weapon()
 }
-     
-depth = Object_MainHero.depth + 2 * (a > 0 and a < 180);
+
+var ar = point_direction(x, y, mouse_x, mouse_y)
+depth = Object_MainHero.depth - (ar > 180 and ar < 360);
 
 mplayer_move(global.player_speed)
