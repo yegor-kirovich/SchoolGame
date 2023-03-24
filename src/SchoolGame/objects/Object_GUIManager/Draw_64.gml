@@ -2,7 +2,7 @@
 // Вы можете записать свой код в этом редакторе
 
 if not global.touch_shop{
-	var w = 55 * global.hp
+	var w = 55 * global.Herohp
 
 	if(w >= 277){
 		w = 277
@@ -13,5 +13,5 @@ if not global.touch_shop{
 	draw_sprite(Sprite_HPBarEdge, 1, x, y)
 }
 
-draw_text(x, y, global.ex)
-draw_text(x, y + 10, global.level)
+draw_text(x, y, global.Heroex)
+draw_text(x, y + 10, global.Herolevel)

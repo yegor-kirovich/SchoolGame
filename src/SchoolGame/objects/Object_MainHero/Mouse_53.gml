@@ -1,3 +1,6 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-global.ex += 5
+if (global.Herolevel <= global.Herolevel_max) and (global.Heroex < global.Heroex_max)
+	global.Heroex += 5
+
+//global.Herohp--

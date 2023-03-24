@@ -19,7 +19,7 @@ if sprite_index == Sprite_ChSmokeBlock{
 if inBlock and mouse_y >= y + 460{
 	sprite_index = sprite_default
 }
-else if inBlock and mouse_y < y + 460 and global.level >= Required_level{
+else if inBlock and mouse_y < y + 460 and global.Herolevel >= Required_level{
 	sprite_index = sprite_hover
 }
 else{

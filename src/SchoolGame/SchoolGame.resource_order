@@ -15,10 +15,10 @@
     {"name":"Shaders","order":13,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":2,"path":"folders/Sounds.yy",},
     {"name":"Sprite_Group.Blocks_for_choose_weapon","order":7,"path":"folders/Sprites/Sprite_Group.Blocks_for_choose_weapon.yy",},
+    {"name":"Sprite_Group.Ex_Bar","order":15,"path":"folders/Sprites/Sprite_Group.Ex_Bar.yy",},
     {"name":"Sprite_Group.Player_sprites","order":8,"path":"folders/Sprites/Sprite_Group.Player_sprites.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
-    {"name":"Sprite_Group.Ex_Bar","order":15,"path":"folders/Sprites/Sprite_Group.Ex_Bar.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Object_ChWeBlock","order":1,"path":"objects/Object_ChWeBlock/Object_ChWeBlock.yy",},
