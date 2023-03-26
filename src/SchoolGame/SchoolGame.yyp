@@ -49,6 +49,7 @@
     {"id":{"name":"Object_GUIManager","path":"objects/Object_GUIManager/Object_GUIManager.yy",},},
     {"id":{"name":"Object_Enemy","path":"objects/Object_Enemy/Object_Enemy.yy",},},
     {"id":{"name":"Object_Shop","path":"objects/Object_Shop/Object_Shop.yy",},},
+    {"id":{"name":"Sprite_LevelUp","path":"sprites/Sprite_LevelUp/Sprite_LevelUp.yy",},},
     {"id":{"name":"Sprite_Chains","path":"sprites/Sprite_Chains/Sprite_Chains.yy",},},
     {"id":{"name":"Sprite_RegularHand","path":"sprites/Sprite_RegularHand/Sprite_RegularHand.yy",},},
     {"id":{"name":"Sprite_HP","path":"sprites/Sprite_HP/Sprite_HP.yy",},},
@@ -61,7 +62,6 @@
     {"id":{"name":"Sprite_HPBarEdge","path":"sprites/Sprite_HPBarEdge/Sprite_HPBarEdge.yy",},},
     {"id":{"name":"Object_ChooseWeapon","path":"objects/Object_ChooseWeapon/Object_ChooseWeapon.yy",},},
     {"id":{"name":"Sprite_ChRulerBlock","path":"sprites/Sprite_ChRulerBlock/Sprite_ChRulerBlock.yy",},},
-    {"id":{"name":"Sprite_LevelBar100","path":"sprites/Sprite_LevelBar100/Sprite_LevelBar100.yy",},},
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
     {"id":{"name":"Sprite_LevelBar75","path":"sprites/Sprite_LevelBar75/Sprite_LevelBar75.yy",},},
     {"id":{"name":"Sprite_LevelBar50","path":"sprites/Sprite_LevelBar50/Sprite_LevelBar50.yy",},},
@@ -83,6 +83,7 @@
     {"id":{"name":"Sprite_LeftUp","path":"sprites/Sprite_LeftUp/Sprite_LeftUp.yy",},},
     {"id":{"name":"Sprite_ChSmokeBlock","path":"sprites/Sprite_ChSmokeBlock/Sprite_ChSmokeBlock.yy",},},
     {"id":{"name":"work_with_weapon","path":"scripts/work_with_weapon/work_with_weapon.yy",},},
+    {"id":{"name":"Sprite_LevelBar100","path":"sprites/Sprite_LevelBar100/Sprite_LevelBar100.yy",},},
     {"id":{"name":"Sprite_Right","path":"sprites/Sprite_Right/Sprite_Right.yy",},},
   ],
   "RoomOrderNodes": [
