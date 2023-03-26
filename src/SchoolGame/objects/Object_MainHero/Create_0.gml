@@ -6,7 +6,7 @@ global.player_speed = 7
 
 global.Herohp_max = 5
 global.Herohp = global.Herohp_max
-global.Heroex = 5
+global.Heroex = 0
 global.Heroex_max = 100
 global.Herolevel_max = 3
 
@@ -27,3 +27,6 @@ instance_create_layer(x + global.hand_diff[0], y + global.hand_diff[1], "INSTANC
 instance_create_layer(x - global.hand_diff[0], y + global.hand_diff[1], "INSTANCES", global.Left_Hand)
 
 global.Herolevel = 1
+OldBarSprite = Sprite_LevelBar0
+AlphaFactor = 0
+step = 0
