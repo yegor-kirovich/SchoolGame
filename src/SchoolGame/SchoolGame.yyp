@@ -70,6 +70,7 @@
     {"id":{"name":"Sprite_LevelBar25","path":"sprites/Sprite_LevelBar25/Sprite_LevelBar25.yy",},},
     {"id":{"name":"Sprite_LevelBar0","path":"sprites/Sprite_LevelBar0/Sprite_LevelBar0.yy",},},
     {"id":{"name":"Sprite_EnergyDrink","path":"sprites/Sprite_EnergyDrink/Sprite_EnergyDrink.yy",},},
+    {"id":{"name":"normalize","path":"scripts/normalize/normalize.yy",},},
     {"id":{"name":"Object_ChooseWeaponClose","path":"objects/Object_ChooseWeaponClose/Object_ChooseWeaponClose.yy",},},
     {"id":{"name":"Sprite_RightUp","path":"sprites/Sprite_RightUp/Sprite_RightUp.yy",},},
     {"id":{"name":"Sprite_ChPapersBlock_hover","path":"sprites/Sprite_ChPapersBlock_hover/Sprite_ChPapersBlock_hover.yy",},},

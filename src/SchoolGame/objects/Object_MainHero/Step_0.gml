@@ -2,8 +2,8 @@ global.mouse_coord_x = mouse_x - x  // Смещение обе переменн�
 global.mouse_coord_y = y - mouse_y // находился в (0, 0) СО
 image_speed = 0.15
 
-
-mplayer_move(global.player_speed)
+if (global.dash_dtimer == 0)
+	mplayer_move(global.player_speed)
 
 global.right = global.mouse_coord_x > 0
 
@@ -22,3 +22,16 @@ var sprites = [Sprite_Right, Sprite_RightUp, Sprite_Up, Sprite_LeftUp, Sprite_Le
 
 global.a = point_direction(x, y, mouse_x, mouse_y)
 sprite_index = sprites[global.a / 45]
+
+///
+///
+
+if (global.dash_ctimer > 0) 
+	global.dash_ctimer--
+
+if (global.dash_dtimer > 0) {
+	x += global.dash_spd * global.dash_dir[0]
+	y += global.dash_spd * global.dash_dir[1]
+	
+	global.dash_dtimer--
+}

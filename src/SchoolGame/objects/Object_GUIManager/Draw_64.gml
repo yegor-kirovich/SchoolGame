@@ -13,5 +13,5 @@ if not global.touch_shop{
 	draw_sprite(Sprite_HPBarEdge, 1, x, y)
 }
 
-draw_text(x, y, global.Heroex)
-draw_text(x, y + 10, global.Herolevel)
+draw_text(x, y, global.dash_ctimer)
+draw_text(x, y + 10, global.dash_dtimer)

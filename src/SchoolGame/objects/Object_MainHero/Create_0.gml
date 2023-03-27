@@ -4,6 +4,14 @@ global.a = point_direction(x, y, mouse_x, mouse_y)
 
 global.player_speed = 7
 
+global.dash_coold = 10
+global.dash_dur = 15
+global.dash_spd = 10
+global.dash_dir = [0, 0]
+global.dash_ctimer = 0
+global.dash_dtimer = 0
+
+
 global.Herohp_max = 5
 global.Herohp = global.Herohp_max
 global.Heroex = 0

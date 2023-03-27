@@ -1,4 +1,5 @@
-mplayer_move(global.player_speed)
+if (global.dash_dtimer == 0) 
+	mplayer_move(global.player_speed)
 
 if global.weapon != noone{
 	if global.right_weapon{
@@ -17,6 +18,7 @@ if global.weapon != noone{
 		y = Object_MainHero.y + global.hand_diff[1]
 	}
 }
+
 
 
 var ar = point_direction(x, y, mouse_x, mouse_y)

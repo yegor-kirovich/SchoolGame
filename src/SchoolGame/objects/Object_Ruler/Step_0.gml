@@ -9,7 +9,8 @@ else{
 	y = Object_MainHero.y + global.hand_diff[1]
 }
 
-mplayer_move(global.player_speed)
+if (global.dash_dtimer == 0)
+	mplayer_move(global.player_speed)
 
 if not global.hit{
 	sprite_index = Sprite_Ruler

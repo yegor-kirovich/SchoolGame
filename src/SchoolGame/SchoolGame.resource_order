@@ -46,6 +46,7 @@
     {"name":"Sprite_LeftDown","order":11,"path":"sprites/Sprite_LeftDown/Sprite_LeftDown.yy",},
     {"name":"Sprite_ChSmokeBlock_hover","order":5,"path":"sprites/Sprite_ChSmokeBlock_hover/Sprite_ChSmokeBlock_hover.yy",},
     {"name":"Sprite_LevelBar25","order":2,"path":"sprites/Sprite_LevelBar25/Sprite_LevelBar25.yy",},
+    {"name":"normalize","order":2,"path":"scripts/normalize/normalize.yy",},
     {"name":"Object_ChooseWeaponClose","order":3,"path":"objects/Object_ChooseWeaponClose/Object_ChooseWeaponClose.yy",},
     {"name":"Sprite_RightUp","order":7,"path":"sprites/Sprite_RightUp/Sprite_RightUp.yy",},
     {"name":"Sprite_ChPapersBlock_hover","order":4,"path":"sprites/Sprite_ChPapersBlock_hover/Sprite_ChPapersBlock_hover.yy",},
