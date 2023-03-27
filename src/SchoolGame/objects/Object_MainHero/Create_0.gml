@@ -38,3 +38,4 @@ global.Herolevel = 1
 OldBarSprite = Sprite_LevelBar0
 AlphaFactor = 0
 step = 0
+LevelUp = false
