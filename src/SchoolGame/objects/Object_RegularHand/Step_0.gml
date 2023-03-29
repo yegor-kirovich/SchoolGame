@@ -1,5 +1,4 @@
-if (global.dash_dtimer == 0) 
-	mplayer_move(global.player_speed)
+mplayer_move(global.player_speed)
 
 if global.weapon != noone{
 	if global.right_weapon{

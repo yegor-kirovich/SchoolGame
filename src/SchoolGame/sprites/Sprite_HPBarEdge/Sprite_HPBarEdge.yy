@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Sprite_Group.HP_Bar",
+    "path": "folders/Sprites/Sprite_Group.HP_Bar.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

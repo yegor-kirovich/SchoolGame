@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Sprite_Group.Player_sprites",
-    "path": "folders/Sprites/Sprite_Group.Player_sprites.yy",
+    "path": "folders/Sprites/Sprite_Group.Player/Sprite_Group.Player_sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

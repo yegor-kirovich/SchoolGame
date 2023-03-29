@@ -10,8 +10,6 @@ if (global.dash_ctimer == 0) and (global.dash_dtimer == 0) {
 	global.dash_dir[0] = D - A
 	global.dash_dir[1] = S - W
 	
-	global.dash_dir = normalize(global.dash_dir)
-	
 	global.dash_dtimer = global.dash_dur
 	global.dash_ctimer = global.dash_coold
 }

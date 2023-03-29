@@ -6,15 +6,20 @@ function mplayer_move(spd){
 	var W = keyboard_check(ord("W"));
 	var S = keyboard_check(ord("S"));
 
-	var hor = D - A;
-	var ver = S - W;
-
-	if (hor != 0 or ver != 0)
-	{
-	    var ang = point_direction(0, 0, hor, ver);
-	    var xadd = lengthdir_x(spd, ang);
-	    var yadd = lengthdir_y(spd, ang);
-	    x = x + xadd;
-	    y = y + yadd;
+	var dir = [D - A, S - W]
+	dir = normalize(dir)
+	
+	if (global.dash_ctimer > 0)
+		global.dash_ctimer--
+	
+	if (global.dash_dtimer > 0) {
+		x += global.dash_dir[0] * global.dash_spd
+		y += global.dash_dir[1] * global.dash_spd
+	
+		global.dash_dtimer--
+	}else{
+		x += dir[0] * spd
+		y += dir[1] * spd
 	}
+
 }
