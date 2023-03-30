@@ -26,5 +26,3 @@ if global.a >= 90 and global.a <= 270{
 else{
 	image_xscale = scale
 }
-
-///

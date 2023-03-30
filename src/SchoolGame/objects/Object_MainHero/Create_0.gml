@@ -5,8 +5,8 @@ scale = image_xscale
 
 global.player_speed = 7
 
-global.dash_coold = 20
-global.dash_dur = 10
+global.dash_coold = 120
+global.dash_dur = 20
 global.dash_spd = 15
 global.dash_ctimer = 0
 global.dash_dtimer = 0
