@@ -31,10 +31,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "Sprite_LeftDown",
-    "path": "sprites/Sprite_LeftDown/Sprite_LeftDown.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

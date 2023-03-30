@@ -1,6 +1,7 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
 global.a = point_direction(x, y, mouse_x, mouse_y)
+scale = image_xscale
 
 global.player_speed = 7
 
