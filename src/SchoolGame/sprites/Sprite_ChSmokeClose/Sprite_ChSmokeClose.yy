@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Sprite_ChSmokeBlock",
+  "name": "Sprite_ChSmokeClose",
   "bbox_bottom": 509,
   "bbox_left": 0,
   "bbox_right": 299,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"aac08ab5-33eb-460b-8f05-c0f580dab014",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2593028e-a8f3-4670-97a8-ad28f04e3fe6",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 510,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4dff5a54-98ba-441e-ab76-9a36c3f630d8","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"93c5e945-ca30-4c55-a0c8-fae286adbb64","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Sprite_ChSmokeBlock",
+    "name": "Sprite_ChSmokeClose",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"aac08ab5-33eb-460b-8f05-c0f580dab014","path":"sprites/Sprite_ChSmokeBlock/Sprite_ChSmokeBlock.yy",},},},"Disabled":false,"id":"9d05846a-8d95-40f3-b8e3-4effa55b6127","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2593028e-a8f3-4670-97a8-ad28f04e3fe6","path":"sprites/Sprite_ChSmokeClose/Sprite_ChSmokeClose.yy",},},},"Disabled":false,"id":"7fc50976-54f8-42f6-97ae-d307a558c4df","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
