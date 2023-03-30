@@ -20,9 +20,4 @@ if global.weapon == "ruler"{
 var sprites = [Sprite_Right, Sprite_RightUp, Sprite_Up, Sprite_RightUp, Sprite_Right, Sprite_RightDown, Sprite_Down, Sprite_RightDown]
 global.a = point_direction(x, y, mouse_x, mouse_y)
 sprite_index = sprites[global.a / 45]
-if global.a >= 90 and global.a <= 270{
-	image_xscale = -scale
-}
-else{
-	image_xscale = scale
-}
+image_xscale = scale - 2 * scale * (global.a >= 90 and global.a <= 270)
