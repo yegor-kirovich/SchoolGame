@@ -1,34 +1,18 @@
-var cameraX = camera_get_view_x(global.Camera)
-var cameraY = camera_get_view_y(global.Camera)
-var cameraWidth = camera_get_view_width(global.Camera)
-var cameraHeight = camera_get_view_height(global.Camera)
+vx = Object_MainHero.x - global.CameraWidth / 2;
+vy = Object_MainHero.y - global.CameraHeight / 2;
 
-var targetY = cameraTarget.y - cameraHeight / 2
-var targetX = cameraTarget.x - cameraWidth / 2
+vx = clamp(vx, 0, room_width - global.CameraWidth); // vx like a view x
+vy = clamp(vy, 0, room_height - global.CameraHeight);
 
-var MouseX = mouse_x - cameraX
-var MouseY = mouse_y - cameraY
+var camera_speed = 2;
+var camera_tx = vx + (mouse_x - global.CameraWidth / 2) * camera_speed; // tx - target x
+var camera_ty = vy + (mouse_y - global.CameraHeight / 2) * camera_speed;
 
-if MouseX > right_zone{
-	cameraX += 15
-}
-if MouseX < left_zone{
-	cameraX -= 15
-}
-	
-if MouseY > upper_zone{
-	cameraY += 15
-}
-if MouseY < bottom_zone{
-	cameraY -= 15
-}
+vx = clamp(vx, 0, room_width - global.CameraWidth);
+vy = clamp(vy, 0, room_height - global.CameraHeight);
 
-targetX = clamp(targetX, 0, room_width - cameraWidth)
-targetY = clamp(targetY, 0, room_height - cameraHeight)
+vx = lerp(vx, camera_tx, 0.1);
+vy = lerp(vy, camera_ty, 0.1);
 
-cameraX = lerp(cameraX, targetX, CameraSpeed)
-cameraY = lerp(cameraY, targetY, CameraSpeed)
+camera_set_view_pos(view_camera[0], vx, vy)
 
-
-camera_set_view_pos(global.Camera, cameraX, cameraY)
-camera_set_view_size(global.Camera, cameraWidth, cameraHeight)
