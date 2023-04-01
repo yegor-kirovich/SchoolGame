@@ -20,4 +20,8 @@ view_set_camera(0, view_camera[0])
 
 vx = Object_MainHero.x - global.CameraWidth / 2;
 vy = Object_MainHero.y - global.CameraHeight / 2;
+
+global.vx = vx
+global.vy = vy
+
 camera_set_view_pos(view_camera[0], vx, vy)
