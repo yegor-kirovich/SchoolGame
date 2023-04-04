@@ -22,6 +22,8 @@
     {"name":"Sprite_Group.Player_Weapons","order":1,"path":"folders/Sprites/Sprite_Group.Player/Sprite_Group.Player_Weapons.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
+    {"name":"Sprite_Group.TalantGUI","order":10,"path":"folders/Sprites/Sprite_Group.TalantGUI.yy",},
+    {"name":"Group.Talant_GUI","order":5,"path":"folders/Objects/Group.Talant_GUI.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Object_ChWeBlock","order":1,"path":"objects/Object_ChWeBlock/Object_ChWeBlock.yy",},
