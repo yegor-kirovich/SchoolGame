@@ -8,12 +8,24 @@ offset = 0
 Ruler_talant = [["DMG+",  "-CDHit",    "+Miss", "-CDDash"],
 				["",      "",          "",      "DashInv"],
 				["SlowD", "DoubleHit", "",      "Dash+Hit"]]
+				
+global.Button_list = []
 
 x = global.vx - 70 + global.w
 y = global.vy
 
-for(var i = 0; i < 3; ++i){
-	for(var j = 0; j < 4; ++j){
-		instance_create_layer(x + 84 + 155 * j, y + 301 + i * 157, "INSTANCES", Object_TalantButton)
+for(var i = 0; i < array_length(Ruler_talant); ++i){
+	var a = []
+	for(var j = 0; j < array_length(Ruler_talant[i]); ++j){
+		if Ruler_talant[i][j] != ""{
+			var button = instance_create_layer(x + 84 + j * 155, y + 301 + i * 157, "INSTANCES", Object_TalantButton, {depth: -2,
+																													   info: Ruler_talant[i][j],
+																													   list_coord: [i, j]})
+		}
+		else{
+			var button = ""
+		}
+		array_push(a, button)
 	}
+	array_push(global.Button_list, a)
 }

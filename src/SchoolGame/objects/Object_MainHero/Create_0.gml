@@ -11,6 +11,10 @@ global.dash_spd = 15
 global.dash_ctimer = 0
 global.dash_dtimer = 0
 
+global.damage = 3
+global.cooldown_hit = 2
+
+global.miss = 0 // In percent
 
 global.Herohp_max = 5
 global.Herohp = global.Herohp_max
