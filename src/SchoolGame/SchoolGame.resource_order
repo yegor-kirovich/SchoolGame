@@ -9,7 +9,6 @@
     {"name":"Group.Main_Hero_Objects","order":4,"path":"folders/Objects/Group.Main_Hero_Objects.yy",},
     {"name":"Group.System_Objects","order":1,"path":"folders/Objects/Group.System_Objects.yy",},
     {"name":"Group.Talant_GUI","order":5,"path":"folders/Objects/Group.Talant_GUI.yy",},
-    {"name":"Paths","order":3,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":8,"path":"folders/Rooms.yy",},
     {"name":"Scripts","order":4,"path":"folders/Scripts.yy",},
     {"name":"Sequences","order":9,"path":"folders/Sequences.yy",},

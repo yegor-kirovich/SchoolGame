@@ -25,7 +25,7 @@ global.Herolevel_max = 3
 global.mouse_coord_x = mouse_x - x 
 global.mouse_coord_y = y - mouse_y
 
-global.hand_diff = [30, 20]
+global.hand_diff = [40, 30]
 
 global.hit = false
 global.right = true
@@ -35,8 +35,10 @@ global.weapon = noone
 
 global.Left_Hand = Object_RegularHand
 global.Right_Hand = Object_RegularHand
-instance_create_layer(x + global.hand_diff[0], y + global.hand_diff[1], "INSTANCES", global.Right_Hand)
-instance_create_layer(x - global.hand_diff[0], y + global.hand_diff[1], "INSTANCES", global.Left_Hand)
+Right = instance_create_layer(x + global.hand_diff[0], y + global.hand_diff[1], "INSTANCES", global.Right_Hand)
+Left = instance_create_layer(x - global.hand_diff[0], y + global.hand_diff[1], "INSTANCES", global.Left_Hand)
+
+global.Hands_id = [Left.id, Right.id]
 
 global.Herolevel = 1
 OldBarSprite = Sprite_LevelBar0

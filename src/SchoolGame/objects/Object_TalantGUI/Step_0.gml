@@ -3,11 +3,11 @@
 depth = -1
 
 if MouseIn{
-	if offset == -570{
+	if offset == -430{
 		IsOpen = true
 	}
 	else{
-		offset += -15
+		offset += -10
 	}
 }
 else if not MouseIn{
@@ -15,6 +15,6 @@ else if not MouseIn{
 		IsOpen = false
 	}
 	else{
-		offset += 15
+		offset += 10
 	}
 }

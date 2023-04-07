@@ -1,7 +1,7 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-global.CameraWidth = 1920
-global.CameraHeight = 1080
+global.CameraWidth = 1440
+global.CameraHeight = 810
 
 global.isPaused = 0
 paused_surf = -1

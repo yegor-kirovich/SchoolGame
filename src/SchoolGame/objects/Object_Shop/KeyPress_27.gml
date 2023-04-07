@@ -5,12 +5,12 @@ if global.touch_shop{
 	instance_activate_all()
 	
 	if x > Object_MainHero.x{
-		Object_MainHero.x -= 20
+		Object_MainHero.x -= 15
 	}
 	else{
-		Object_MainHero.x += 20
+		Object_MainHero.x += 15
 	}
-	Object_MainHero.y += 20
+	Object_MainHero.y += 15
 	
 	
 	global.stage = 1

@@ -21,7 +21,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Group.System_Objects","folderPath":"folders/Objects/Group.System_Objects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Group.Talant_GUI","folderPath":"folders/Objects/Group.Talant_GUI.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Group.Weapon_GUI","folderPath":"folders/Objects/Group.Weapon_GUI.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequences","folderPath":"folders/Sequences.yy",},
