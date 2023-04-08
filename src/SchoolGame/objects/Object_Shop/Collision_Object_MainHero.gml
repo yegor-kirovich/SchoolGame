@@ -6,7 +6,7 @@ if not global.touch_shop{
 	var offset = 0
 	for(var i = 0; i < instance_count; i++){
 		var obj = instance_find(all, i);
-		if obj.sprite_index != -1 and obj != Object_ChooseWeapon and obj != Object_ChWeBlock{
+		if obj.sprite_index != -1 and obj != Object_ChWeBlock{
 			allObjects[i - offset, 0] = obj.sprite_index
 			allObjects[i - offset, 1] = obj.image_index
 			allObjects[i - offset, 2] = obj.x

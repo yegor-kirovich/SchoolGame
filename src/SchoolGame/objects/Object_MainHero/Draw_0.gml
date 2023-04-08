@@ -9,7 +9,9 @@ var LevelXY = [x - sprite_width / 2 - 20, y - sprite_height / 2 - 5]
 var LevelUpXY = [x - sprite_width / 2 - 10, y - sprite_height / 2 - 5]
 
 var bar = [Sprite_LevelBar0, Sprite_LevelBar25, Sprite_LevelBar50, Sprite_LevelBar75, Sprite_LevelBar100]
-var level = [Sprite_LevelNumber1, Sprite_LevelNumber2, Sprite_LevelNumber3]
+var level = [Sprite_Number1, Sprite_Number2, Sprite_Number3, Sprite_Number4,
+			 Sprite_Number5, Sprite_Number6, Sprite_Number7, Sprite_Number8,
+			 Sprite_Number9]
 
 if (global.Herolevel < global.Herolevel_max) and (global.Heroex >= global.Heroex_max){
 	global.Heroex %= global.Heroex_max

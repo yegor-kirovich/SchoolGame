@@ -20,7 +20,7 @@ global.Herohp_max = 5
 global.Herohp = global.Herohp_max
 global.Heroex = 0
 global.Heroex_max = 100
-global.Herolevel_max = 3
+global.Herolevel_max = 20
 
 global.mouse_coord_x = mouse_x - x 
 global.mouse_coord_y = y - mouse_y

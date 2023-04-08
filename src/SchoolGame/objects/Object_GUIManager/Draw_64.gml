@@ -17,4 +17,3 @@ if not global.touch_shop{
 	if global.dash_ctimer > 0
 		draw_sprite_ext(Sprite_DashCooldown, 1, x + 20, y + 1030, 1, coeff, 1, c_white, 0.6)
 }
-draw_text(x + 20, y + 200, global.cur_lvl)
