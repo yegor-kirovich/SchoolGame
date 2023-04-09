@@ -17,7 +17,7 @@ var level_sprites = [[0, Sprite_Number0],
 for(var i = 0; i < array_length(level_sprites); i++){
 	if i == global.TalantPoints{
 		IsDraw = true
-		draw_sprite(level_sprites[i][1], 1, x, y + 49)
+		draw_sprite(level_sprites[i][1], 1, x, y + 52)
 	}
 }
 if not IsDraw{
