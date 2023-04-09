@@ -22,11 +22,14 @@ if keyboard_check_pressed(ord("P")){
 		
 		if(surface_exists(paused_surf))
 			surface_free(paused_surf)
+			
+		camera_set_view_size(view_camera[0], w, h)
 		
 		paused_surf = surface_create(w, h)
 			
 		surface_set_target(paused_surf)
-		draw_clear_alpha ( c_white , 0 );
+			draw_clear_alpha ( c_white , 0 );
+			draw_surface(application_surface, 0, 0)
 		surface_reset_target()
 			
 		if(buffer_exists(paused_surf_buff))
