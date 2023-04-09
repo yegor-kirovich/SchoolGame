@@ -8,7 +8,7 @@ for(var i = 0; i < list_coord[0]; i++){
 	}
 }
 
-if cur_lvl == max_lvl{
+if cur_lvl == max_lvl or global.TalantPoints < 1{
 	available = false
 }
 
@@ -41,6 +41,5 @@ if available{
 	}
 	
 	cur_lvl += 1
+	global.TalantPoints -= 1
 }
-
-global.cur_lvl = cur_lvl

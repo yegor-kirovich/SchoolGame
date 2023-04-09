@@ -1,13 +1,10 @@
-/// @description Вставьте описание здесь
-// Вы можете записать свой код в этом редакторе
-if not global.touch_shop{
-	draw_self()
-}
+draw_self()
 
 
 // Прорисовка неипользованных талантов
 var IsDraw = false
-var level_sprites = [[1, Sprite_Number1],
+var level_sprites = [[0, Sprite_Number0],
+					 [1, Sprite_Number1],
 					 [2, Sprite_Number2],
 					 [3, Sprite_Number3],
 					 [4, Sprite_Number4],
@@ -18,7 +15,7 @@ var level_sprites = [[1, Sprite_Number1],
 					 [9, Sprite_Number9]]
 
 for(var i = 0; i < array_length(level_sprites); i++){
-	if i + 1 == global.Herolevel{
+	if i == global.TalantPoints{
 		IsDraw = true
 		draw_sprite(level_sprites[i][1], 1, x, y + 49)
 	}

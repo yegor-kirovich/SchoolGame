@@ -21,6 +21,10 @@ global.Herohp = global.Herohp_max
 global.Heroex = 0
 global.Heroex_max = 100
 global.Herolevel_max = 20
+global.Herolevel = 1
+global.TalantPoints = 1
+
+global.coins = 0
 
 global.mouse_coord_x = mouse_x - x 
 global.mouse_coord_y = y - mouse_y
@@ -40,7 +44,6 @@ Left = instance_create_layer(x - global.hand_diff[0], y + global.hand_diff[1], "
 
 global.Hands_id = [Left.id, Right.id]
 
-global.Herolevel = 1
 OldBarSprite = Sprite_LevelBar0
 AlphaFactor = 0
 step = 0

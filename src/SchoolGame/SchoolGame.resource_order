@@ -20,9 +20,9 @@
     {"name":"Sprite_Group.Player","order":8,"path":"folders/Sprites/Sprite_Group.Player.yy",},
     {"name":"Sprite_Group.Player_Weapons","order":1,"path":"folders/Sprites/Sprite_Group.Player/Sprite_Group.Player_Weapons.yy",},
     {"name":"Sprite_Group.TalantGUI","order":7,"path":"folders/Sprites/Sprite_Group.TalantGUI.yy",},
+    {"name":"Level_Numbers","order":13,"path":"folders/Sprites/Sprite_Group.TalantGUI/Level_Numbers.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
-    {"name":"Level_Numbers","order":13,"path":"folders/Sprites/Sprite_Group.TalantGUI/Level_Numbers.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Object_ChWeBlock","order":1,"path":"objects/Object_ChWeBlock/Object_ChWeBlock.yy",},
@@ -32,6 +32,7 @@
     {"name":"Sprite_ChRulerClose","order":9,"path":"sprites/Sprite_ChRulerClose/Sprite_ChRulerClose.yy",},
     {"name":"Object_Enemy","order":3,"path":"objects/Object_Enemy/Object_Enemy.yy",},
     {"name":"Sprite_Number9","order":9,"path":"sprites/Sprite_Number9/Sprite_Number9.yy",},
+    {"name":"Sprite_Number0","order":11,"path":"sprites/Sprite_Number0/Sprite_Number0.yy",},
     {"name":"Object_Shop","order":2,"path":"objects/Object_Shop/Object_Shop.yy",},
     {"name":"Sprite_ChPapersClose","order":11,"path":"sprites/Sprite_ChPapersClose/Sprite_ChPapersClose.yy",},
     {"name":"Sprite_ChSmokeClose","order":10,"path":"sprites/Sprite_ChSmokeClose/Sprite_ChSmokeClose.yy",},

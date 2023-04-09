@@ -1,7 +1,6 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
 cur_lvl = 0
-global.cur_lvl = 0
 available = true
 
 
