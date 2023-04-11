@@ -20,7 +20,7 @@
     {"name":"Sprite_Group.Player","order":8,"path":"folders/Sprites/Sprite_Group.Player.yy",},
     {"name":"Sprite_Group.Player_Weapons","order":1,"path":"folders/Sprites/Sprite_Group.Player/Sprite_Group.Player_Weapons.yy",},
     {"name":"Sprite_Group.TalantGUI","order":7,"path":"folders/Sprites/Sprite_Group.TalantGUI.yy",},
-    {"name":"Level_Numbers","order":13,"path":"folders/Sprites/Sprite_Group.TalantGUI/Level_Numbers.yy",},
+    {"name":"Level_Numbers","order":9,"path":"folders/Sprites/Level_Numbers.yy",},
     {"name":"Tile Sets","order":1,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":6,"path":"folders/Timelines.yy",},
   ],

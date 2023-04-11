@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Sprite_Number1",
-  "bbox_bottom": 44,
-  "bbox_left": 8,
-  "bbox_right": 29,
+  "bbox_bottom": 41,
+  "bbox_left": 0,
+  "bbox_right": 19,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,11 +13,11 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"47632928-bd98-47ff-84dd-4dade636f501",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"da10683d-c95c-4286-b420-658be6d0fb60",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 45,
+  "height": 42,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b1a4a720-2fa3-4e82-ae39-aad722877cc7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Level_Numbers",
-    "path": "folders/Sprites/Sprite_Group.TalantGUI/Level_Numbers.yy",
+    "path": "folders/Sprites/Level_Numbers.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"47632928-bd98-47ff-84dd-4dade636f501","path":"sprites/Sprite_Number1/Sprite_Number1.yy",},},},"Disabled":false,"id":"9f471405-8dd1-46ea-8115-f664becf34d7","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"da10683d-c95c-4286-b420-658be6d0fb60","path":"sprites/Sprite_Number1/Sprite_Number1.yy",},},},"Disabled":false,"id":"328dacab-945f-4041-b3a4-72df9e94c991","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 45,
+  "width": 20,
 }

@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Sprite_Number7",
-  "bbox_bottom": 44,
-  "bbox_left": 8,
-  "bbox_right": 44,
-  "bbox_top": 4,
+  "bbox_bottom": 41,
+  "bbox_left": 0,
+  "bbox_right": 33,
+  "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,11 +13,11 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"49d871ed-128e-4dc4-9848-24193787f407",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d6d18d9e-b6af-4038-8cb8-4a9a6d540c95",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 49,
+  "height": 42,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b1a4a720-2fa3-4e82-ae39-aad722877cc7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "Level_Numbers",
-    "path": "folders/Sprites/Sprite_Group.TalantGUI/Level_Numbers.yy",
+    "path": "folders/Sprites/Level_Numbers.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"49d871ed-128e-4dc4-9848-24193787f407","path":"sprites/Sprite_Number7/Sprite_Number7.yy",},},},"Disabled":false,"id":"1fa0d226-4d3a-4058-8fa6-7ae33800b1ec","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d6d18d9e-b6af-4038-8cb8-4a9a6d540c95","path":"sprites/Sprite_Number7/Sprite_Number7.yy",},},},"Disabled":false,"id":"837c985b-42ba-4576-bbcf-375a27185bd9","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 49,
+  "width": 34,
 }

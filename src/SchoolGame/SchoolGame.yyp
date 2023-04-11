@@ -35,7 +35,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprite_Group.Player_sprites","folderPath":"folders/Sprites/Sprite_Group.Player/Sprite_Group.Player_sprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprite_Group.Player_Weapons","folderPath":"folders/Sprites/Sprite_Group.Player/Sprite_Group.Player_Weapons.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprite_Group.TalantGUI","folderPath":"folders/Sprites/Sprite_Group.TalantGUI.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Level_Numbers","folderPath":"folders/Sprites/Sprite_Group.TalantGUI/Level_Numbers.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Level_Numbers","folderPath":"folders/Sprites/Level_Numbers.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],

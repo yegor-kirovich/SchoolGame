@@ -51,7 +51,7 @@ if not LevelUp{
 		draw_sprite_ext(LevelSprite, 1, LevelXY[0], LevelXY[1], 1, 1, 0, c_white, 0 + AlphaChange * AlphaFactor)
 	}
 	else{
-		draw_sprite_ext(FirstDigit, 1, LevelXY[0] - 39, LevelXY[1], 1, 1, 0, c_white, 0 + AlphaChange * AlphaFactor)
+		draw_sprite_ext(FirstDigit, 1, LevelXY[0] - 25, LevelXY[1], 1, 1, 0, c_white, 0 + AlphaChange * AlphaFactor)
 		draw_sprite_ext(SecondDigit, 1, LevelXY[0], LevelXY[1], 1, 1, 0, c_white, 0 + AlphaChange * AlphaFactor)
 	}
 	draw_sprite_ext(NewBarSprite, 1, BarXY[0], BarXY[1], 1, 1, 0, c_white, 0 + AlphaChange * AlphaFactor)
