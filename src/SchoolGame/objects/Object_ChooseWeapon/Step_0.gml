@@ -23,7 +23,7 @@ else{
 	inBlock = false
 }
 
-if global.touch_shop and inBlock{
+if global.ShopColl and inBlock{
 	if Close.y - 9 > y + 810 - sprite_h{
 		Close.y -= 9
 	}
@@ -31,7 +31,7 @@ if global.touch_shop and inBlock{
 		Close.y = y + 810 - sprite_h
 	}
 }
-else if global.touch_shop and not inBlock{
+else if global.ShopColl and not inBlock{
 	if Close.y + 9 < y + 810{
 		Close.y += 9
 	}

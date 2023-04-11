@@ -3,6 +3,8 @@
 global.a = point_direction(x, y, mouse_x, mouse_y)
 scale = image_xscale
 
+global.post_cond = false
+
 global.player_speed = 7
 
 global.dash_coold = 120

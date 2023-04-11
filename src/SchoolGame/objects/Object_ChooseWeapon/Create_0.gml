@@ -9,5 +9,5 @@ Smoke = instance_create_layer(x + 450 * 2 + 11 * 3, y + 11, "INSTANCES", Object_
 Close = instance_create_layer(x, y + 405, "INSTANCES", Object_ChooseWeaponClose, {image_alpha: 0.85,
 																			      depth: -2})
 
-global.first_touch = false
+global.ShopColl = false
 inBlock = false

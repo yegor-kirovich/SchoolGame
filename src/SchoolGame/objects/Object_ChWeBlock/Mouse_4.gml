@@ -15,8 +15,8 @@ if visible{
 			}
 	}
 
-	if global.touch_shop{
-		global.touch_shop = false
+	if global.ShopColl{
+		global.ShopColl = false
 		instance_activate_all()
 	
 		if x > Object_MainHero.x{

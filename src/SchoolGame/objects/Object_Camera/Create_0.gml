@@ -1,8 +1,6 @@
-view_camera[0] = camera_create_view(0, 0, 960, 540)
+view_camera[0] = camera_create_view(0, 0, 1920, 1080)
 view_enabled = true
 view_visible[0] = true
-view_hport[0] = 1080
-view_wport[0] = 1920
 camera_set_view_size(view_camera[0], global.CameraWidth, global.CameraHeight)
 
 vx = Object_MainHero.x - global.CameraWidth / 2;

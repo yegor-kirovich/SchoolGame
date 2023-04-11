@@ -1,7 +1,7 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-if global.touch_shop and visible{
-	global.touch_shop = false
+if global.ShopColl and visible{
+	global.ShopColl = false
 	instance_activate_all()
 	
 	if x > Object_MainHero.x{
