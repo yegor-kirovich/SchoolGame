@@ -5,7 +5,7 @@ scale = image_xscale
 
 global.post_cond = false
 
-global.player_speed = 7
+global.player_speed = 12
 
 global.dash_coold = 120
 global.dash_dur = 20

@@ -22,11 +22,13 @@ global.a = point_direction(x, y, mouse_x, mouse_y)
 sprite_index = sprites[global.a / 45]
 image_xscale = scale - 2 * scale * (global.a >= 90 and global.a <= 270)
 
-var a = collision_rectangle(mask_index.x, mask_index.y, mask_index.x + mask_index.sprite_width, mask_index.y + mask_index.sprite_height, Object_Shop, false, true) == Object_Shop.id
-if not global.post_cond and a{
-	global.ShopColl = a
-	global.post_cond = true
-}
-else if global.post_cond and not a{
-	global.post_cond = false
+if room == Main_Menu{
+	var a = collision_rectangle(mask_index.x, mask_index.y, mask_index.x + mask_index.sprite_width, mask_index.y + mask_index.sprite_height, Object_Shop, false, true) == Object_Shop.id
+	if not global.post_cond and a{
+		global.ShopColl = a
+		global.post_cond = true
+	}
+	else if global.post_cond and not a{
+		global.post_cond = false
+	}
 }

@@ -13,8 +13,6 @@ if(global.isPaused){
 	
 }
 
-
-
 if global.ShopColl == 1 and Pausid == 1{
 	surface_set_target(application_surface)
 	if(surface_exists(weapon_surf)) {

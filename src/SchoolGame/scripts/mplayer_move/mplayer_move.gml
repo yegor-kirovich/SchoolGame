@@ -5,10 +5,11 @@ function mplayer_move(spd){
 	var D = keyboard_check(ord("D"));
 	var W = keyboard_check(ord("W"));
 	var S = keyboard_check(ord("S"));
-
-	var dir = [D - A, S - W]
-	dir = normalize(dir)
 	
+	var dir = point_direction(0, 0, D - A, S - W)
+	var xadd = lengthdir_x(spd, dir)
+	var yadd = lengthdir_y(spd, dir)
+		
 	if (global.dash_ctimer > 0)
 		global.dash_ctimer--
 	
@@ -17,9 +18,21 @@ function mplayer_move(spd){
 		y += global.dash_dir[1] * global.dash_spd
 	
 		global.dash_dtimer--
-	}else{
-		x += dir[0] * spd
-		y += dir[1] * spd
+	}
+	else if D - A != 0 or S - W != 0{
+		if !place_meeting(x + xadd, y, Object_Wall){
+			x += xadd
+		} 
+		else{
+			while (!place_meeting(x + sign(xadd), y, Object_Wall)) x += sign(xadd)
+		}
+		
+		if !place_meeting(x, y + yadd, Object_Wall){
+			y += yadd	
+		}
+		else{
+			while (!place_meeting(x, y + sign(yadd), Object_Wall)) y += sign(yadd)
+		}
 	}
 
 }

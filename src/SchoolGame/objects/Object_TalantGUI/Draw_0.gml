@@ -24,3 +24,8 @@ if not global.ShopColl{
 		draw_sprite(Sprite_NumberB, 1, x + 4, y + 80)
 	}
 }
+
+//Прорисовка описания талантов
+if global.ButtonHover != noone{
+	draw_sprite(global.ButtonHover, 1 ,x + 105, y + 750)
+}

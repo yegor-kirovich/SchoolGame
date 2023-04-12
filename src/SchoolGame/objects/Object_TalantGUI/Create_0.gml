@@ -3,6 +3,8 @@
 IsOpen = false
 MouseIn = false
 
+global.ButtonHover = noone
+
 offset = 0
 
 Ruler_talant = [["DMG+",  "-CDHit",    "+Miss", "-CDDash"],

@@ -31,7 +31,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sprite_RightDown",
+    "path": "sprites/Sprite_RightDown/Sprite_RightDown.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
