@@ -48,6 +48,7 @@
     {"name":"Sprite_DashHit","order":6,"path":"sprites/Sprite_DashHit/Sprite_DashHit.yy",},
     {"name":"Sprite_Up","order":6,"path":"sprites/Sprite_Up/Sprite_Up.yy",},
     {"name":"Sprite_RightDown","order":4,"path":"sprites/Sprite_RightDown/Sprite_RightDown.yy",},
+    {"name":"Minecraft_text","order":1,"path":"fonts/Minecraft_text/Minecraft_text.yy",},
     {"name":"Sprite_Enemy","order":3,"path":"sprites/Sprite_Enemy/Sprite_Enemy.yy",},
     {"name":"Sprite_ButtonDMG","order":1,"path":"sprites/Sprite_ButtonDMG/Sprite_ButtonDMG.yy",},
     {"name":"Sprite_HPBarEdge","order":1,"path":"sprites/Sprite_HPBarEdge/Sprite_HPBarEdge.yy",},
