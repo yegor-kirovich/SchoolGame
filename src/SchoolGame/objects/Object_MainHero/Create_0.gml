@@ -26,8 +26,6 @@ global.Herolevel_max = 20
 global.Herolevel = 1
 global.TalantPoints = 1
 
-global.coins = 0
-
 global.mouse_coord_x = mouse_x - x 
 global.mouse_coord_y = y - mouse_y
 

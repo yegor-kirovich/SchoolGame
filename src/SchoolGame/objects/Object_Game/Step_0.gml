@@ -15,10 +15,7 @@ if keyboard_check_pressed(ord("P")){
 			buffer_delete(paused_surf_buff)
     }else{
 		instance_deactivate_all(true)
-		instance_activate_object(Object_GUIManager)
-		instance_activate_object(Object_ChooseWeapon)
-		instance_activate_object(Object_ChWeBlock)
-		instance_activate_object(Object_ChooseWeaponClose)
+		instance_activate_object(Object_Game)
 		
 		if(surface_exists(paused_surf))
 			surface_free(paused_surf)
@@ -53,10 +50,11 @@ if not global.ShopColl{
 }
 else if (global.ShopColl and not Pausid){
 	instance_deactivate_all(true)
-	instance_activate_object(Object_GUIManager)
+	instance_activate_object(Object_Game)
 	instance_activate_object(Object_ChooseWeapon)
 	instance_activate_object(Object_ChWeBlock)
 	instance_activate_object(Object_ChooseWeaponClose)
+	instance_activate_object(Object_TalantGUI)
 		
 	if(surface_exists(weapon_surf))
 		surface_free(weapon_surf)

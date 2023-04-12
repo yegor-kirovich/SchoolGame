@@ -8,10 +8,10 @@ if global.Herolevel < Required_level{
 }
 else{
 	Close = false
-	if inBlock and mouse_y >= y + 460{
+	if inBlock and mouse_y >= y + 908{
 		sprite_index = sprite_default
 	}
-	else if inBlock and mouse_y < y + 460 and global.Herolevel >= Required_level{
+	else if inBlock and mouse_y < y + 908 and global.Herolevel >= Required_level{
 		sprite_index = sprite_hover
 	}
 	else{

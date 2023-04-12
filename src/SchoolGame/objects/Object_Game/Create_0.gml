@@ -15,6 +15,8 @@ h = 1080
 global.w = w
 global.h = h
 
+global.stage = 1
+
 window_set_fullscreen(true)
 surface_resize(application_surface, w, h)
 display_set_gui_size(w, h)

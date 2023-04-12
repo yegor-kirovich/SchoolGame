@@ -18,18 +18,7 @@ if visible{
 	if global.ShopColl{
 		global.ShopColl = false
 		instance_activate_all()
-	
-		if x > Object_MainHero.x{
-			Object_MainHero.x -= 20
-		}
-		else{
-			Object_MainHero.x += 20
-		}
-		Object_MainHero.y += 20
-	
-	
 		global.stage = 1
-		allObjects = 0
 		global.first_touch = false
 	}
 }

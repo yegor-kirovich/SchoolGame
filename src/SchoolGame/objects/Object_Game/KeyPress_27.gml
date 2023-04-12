@@ -3,8 +3,6 @@
 if global.ShopColl{
 	global.ShopColl = false
 	instance_activate_all()
-	
 	global.stage = 1
-	allObjects = 0
 	global.first_touch = false
 }

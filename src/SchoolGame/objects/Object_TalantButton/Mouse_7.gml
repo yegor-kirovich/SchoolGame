@@ -14,9 +14,7 @@ if cur_lvl == max_lvl or global.TalantPoints < 1{
 
 if available{
 	if info == "DMG+"{
-		if cur_lvl != max_lvl{
-			global.damage += 2
-		}
+		global.damage += 2
 	}
 	else if info == "-CDHit"{
 		global.cooldown_hit -= 0.5

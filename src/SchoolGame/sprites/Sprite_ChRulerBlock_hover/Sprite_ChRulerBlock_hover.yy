@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "Sprite_ChRulerBlock_hover",
-  "bbox_bottom": 764,
+  "bbox_bottom": 1019,
   "bbox_left": 0,
-  "bbox_right": 449,
+  "bbox_right": 599,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 765,
+  "height": 1020,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b357b3e2-d0b0-4473-aea1-2c6018b528c7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 450,
+  "width": 600,
 }
