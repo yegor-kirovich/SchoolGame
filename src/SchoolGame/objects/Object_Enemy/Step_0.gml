@@ -13,4 +13,4 @@
 //	path_end()
 //}
 
-move_towards_point(Object_MainHero.x, Object_MainHero.y, move_speed);
+//move_towards_point(Object_MainHero.x, Object_MainHero.y, move_speed);

@@ -8,7 +8,7 @@ global.post_cond = false
 global.player_speed = 12
 
 global.dash_coold = 120
-global.dash_dur = 20
+global.dash_dur = 50
 global.dash_spd = 15
 global.dash_ctimer = 0
 global.dash_dtimer = 0
@@ -48,3 +48,8 @@ OldBarSprite = Sprite_LevelBar0
 AlphaFactor = 0
 step = 0
 LevelUp = false
+
+DoorColl = false
+global.DrinkColl = false
+
+door = 0

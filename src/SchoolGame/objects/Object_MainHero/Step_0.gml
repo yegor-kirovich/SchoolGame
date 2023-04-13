@@ -23,7 +23,7 @@ sprite_index = sprites[global.a / 45]
 image_xscale = scale - 2 * scale * (global.a >= 90 and global.a <= 270)
 
 if room == Main_Menu{
-	var a = collision_rectangle(mask_index.x, mask_index.y, mask_index.x + mask_index.sprite_width, mask_index.y + mask_index.sprite_height, Object_Shop, false, true) == Object_Shop.id
+	var a = Collision(Object_Shop)
 	if not global.post_cond and a{
 		global.ShopColl = a
 		global.post_cond = true
@@ -31,4 +31,16 @@ if room == Main_Menu{
 	else if global.post_cond and not a{
 		global.post_cond = false
 	}
+}
+
+if room == Level1{
+	door = collision_rectangle(mask_index.x, mask_index.y, mask_index.x + mask_index.sprite_width, mask_index.y + mask_index.sprite_height, Object_levelDoor, false, true)
+	DoorColl = Collision(Object_levelDoor)
+}
+
+if instance_find(Object_EnergyDrink, 0) != noone{
+	global.DrinkColl = Collision(Object_EnergyDrink)
+}
+else{
+	global.DrinkColl = false
 }

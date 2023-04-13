@@ -1,3 +1,5 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-room_goto(Level1)
+if global.weapon != noone{
+	room_goto(Level1)
+}
