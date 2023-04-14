@@ -1,3 +1,6 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-image_angle -= 1
+if keyboard_check_pressed(ord("E")) and global.Herolevel >= 10{
+	IsOpen = true
+}
+col = true
