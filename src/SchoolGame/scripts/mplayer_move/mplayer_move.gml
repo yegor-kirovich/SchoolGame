@@ -14,9 +14,19 @@ function mplayer_move(spd){
 		global.dash_ctimer--
 	
 	if (global.dash_dtimer > 0) {
-		x += global.dash_dir[0] * global.dash_spd
-		y += global.dash_dir[1] * global.dash_spd
-	
+		
+		if !place_meeting(x + global.dash_dir[0] * global.dash_spd, y, Object_Wall){
+			x += global.dash_dir[0] * global.dash_spd
+		}else{
+			while (!place_meeting(x + global.dash_dir[0] * global.dash_spd, y, Object_Wall)) x += sign(global.dash_dir[0] * global.dash_spd)
+		}
+		
+		if !place_meeting(x, y + global.dash_dir[1] * global.dash_spd, Object_Wall){
+			y += global.dash_dir[1] * global.dash_spd	
+		}
+		else{
+			while (!place_meeting(x, y + sign(global.dash_dir[1] * global.dash_spd), Object_Wall)) y += sign(global.dash_dir[1] * global.dash_spd)
+		}
 		global.dash_dtimer--
 	}
 	else if D - A != 0 or S - W != 0{
