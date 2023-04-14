@@ -1,7 +1,6 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-if keyboard_check_pressed(ord("E")) and global.Herolevel >= 10{
-	IsOpen = true
-	sprite_index = noone
-}
-col = true
+IsOpen = false
+col = false
+
+door_wall = instance_create_layer(x + sprite_width / 2, y, "INSTANCES", Object_SideDoorWall)
