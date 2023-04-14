@@ -12,3 +12,9 @@ if not RoomIsOpen{
 		}	
 	}
 }
+
+if not IsClear{
+	if array_length(EnemyListExist) == 0{
+		IsClear = true
+	}
+}

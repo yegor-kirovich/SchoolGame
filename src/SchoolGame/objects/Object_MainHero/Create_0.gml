@@ -39,8 +39,8 @@ global.weapon = noone
 
 global.Left_Hand = Object_RegularHand
 global.Right_Hand = Object_RegularHand
-Right = instance_create_layer(x + global.hand_diff[0], y + global.hand_diff[1], "INSTANCES", global.Right_Hand)
-Left = instance_create_layer(x - global.hand_diff[0], y + global.hand_diff[1], "INSTANCES", global.Left_Hand)
+Right = instance_create_layer(x + global.hand_diff[0], y + global.hand_diff[1], "MainHero", global.Right_Hand)
+Left = instance_create_layer(x - global.hand_diff[0], y + global.hand_diff[1], "MainHero", global.Left_Hand)
 
 global.Hands_id = [Left.id, Right.id]
 
