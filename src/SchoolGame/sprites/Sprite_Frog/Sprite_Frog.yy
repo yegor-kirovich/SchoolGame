@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "Sprite_Door",
-  "bbox_bottom": 143,
-  "bbox_left": 0,
-  "bbox_right": 111,
-  "bbox_top": 6,
+  "name": "Sprite_Frog",
+  "bbox_bottom": 29,
+  "bbox_left": 1,
+  "bbox_right": 31,
+  "bbox_top": 7,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"88ea356c-3163-4cbc-9b49-b2cfc401b4c1",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"887174a8-6de8-466c-937e-f71ae5fb77d2",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 144,
+  "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4c7386d7-2961-4410-8354-9788485f2327","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"6a335f01-cbc3-4b3a-8130-39b9d1d3b08a","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "Sprite_Door",
+    "name": "Sprite_Frog",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"88ea356c-3163-4cbc-9b49-b2cfc401b4c1","path":"sprites/Sprite_Door/Sprite_Door.yy",},},},"Disabled":false,"id":"26a6348a-f8db-4889-af4d-a85b9669d1a1","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"887174a8-6de8-466c-937e-f71ae5fb77d2","path":"sprites/Sprite_Frog/Sprite_Frog.yy",},},},"Disabled":false,"id":"e30791cd-1d6a-4f9b-af21-ce7a51b7ff0d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 112,
+  "width": 32,
 }

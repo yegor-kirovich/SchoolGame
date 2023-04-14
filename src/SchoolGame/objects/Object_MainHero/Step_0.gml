@@ -60,7 +60,7 @@ else{
 	global.DrinkColl = false
 }
 
-if instance_exists(Object_BossDoors) and Collision(Object_BossDoors, 300) and global.Herolevel < 10{
+if instance_exists(Object_BossDoors) and Collision(Object_BossDoors, 600) and global.Herolevel < 10{
 	global.replica = global.DoorClose	
 }
 else{

@@ -18,3 +18,10 @@ if not IsClear{
 		IsClear = true
 	}
 }
+
+if image_xscale == 2 and Collision(Object_MainHero, -300){
+	global.replica = global.InBossRoom
+}
+else if not Collision(Object_MainHero, -300){
+	global.replica = ""
+}
