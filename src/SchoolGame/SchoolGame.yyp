@@ -49,6 +49,7 @@
   "resources": [
     {"id":{"name":"Object_ChWeBlock","path":"objects/Object_ChWeBlock/Object_ChWeBlock.yy",},},
     {"id":{"name":"Sprite_CDHit","path":"sprites/Sprite_CDHit/Sprite_CDHit.yy",},},
+    {"id":{"name":"Sprite_EnemyWarrior","path":"sprites/Sprite_EnemyWarrior/Sprite_EnemyWarrior.yy",},},
     {"id":{"name":"Sprite_Right","path":"sprites/Sprite_Right/Sprite_Right.yy",},},
     {"id":{"name":"Object_TalantGUI","path":"objects/Object_TalantGUI/Object_TalantGUI.yy",},},
     {"id":{"name":"Object_Ruler","path":"objects/Object_Ruler/Object_Ruler.yy",},},

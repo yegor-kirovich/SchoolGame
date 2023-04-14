@@ -1,10 +1,22 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-
+sprite_index = Sprite_EnemyWarrior
 var dis = distance_to_object(Object_MainHero)
+
+if(col_ctimer == 0 and collision_rectangle(mask_index.x, mask_index.y, mask_index.x + mask_index.sprite_width, mask_index.y + mask_index.sprite_height, Object_MainHero, false, true) == Object_MainHero.id){
+	global.Herohp--
+	col_ctimer = col_coold
+}
+
+if(enemy_hp <= 0){
+	instance_destroy(id, 1)
+}
 
 if(attack_ctimer > 0)
 	attack_ctimer--;
+	
+if(col_ctimer > 0)
+	col_ctimer--;
 
 if (attack_dtimer > 0){
 	
@@ -27,7 +39,7 @@ if (attack_dtimer > 0){
 	attack_dtimer--
 }
 
-if attack_dis < dis and attack_dtimer == 0  {
+if attack_dis < dis and not attack_dtimer{
 	if path_ctimer == 0{
 		var found_player = mp_grid_path(global.mp_grid, path, x, y, Object_MainHero.x, Object_MainHero.y, choose(0, 1))
 	
@@ -40,6 +52,7 @@ if attack_dis < dis and attack_dtimer == 0  {
 }else{
 	if attack_dis >= dis{
 		path_end()
+		circle_move = 1
 		
 		if((attack_ctimer <= 0) and (attack_dtimer <= 0)){
 			attack_ctimer = attack_coold
@@ -49,3 +62,5 @@ if attack_dis < dis and attack_dtimer == 0  {
 		}
 	}
 }
+
+///

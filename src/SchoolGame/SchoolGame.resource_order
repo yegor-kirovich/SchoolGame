@@ -28,6 +28,7 @@
   "ResourceOrderSettings": [
     {"name":"Object_ChWeBlock","order":1,"path":"objects/Object_ChWeBlock/Object_ChWeBlock.yy",},
     {"name":"Sprite_CDHit","order":8,"path":"sprites/Sprite_CDHit/Sprite_CDHit.yy",},
+    {"name":"Sprite_EnemyWarrior","order":21,"path":"sprites/Sprite_EnemyWarrior/Sprite_EnemyWarrior.yy",},
     {"name":"Sprite_Right","order":7,"path":"sprites/Sprite_Right/Sprite_Right.yy",},
     {"name":"Object_Ruler","order":2,"path":"objects/Object_Ruler/Object_Ruler.yy",},
     {"name":"Sprite_ChPapersBlock","order":2,"path":"sprites/Sprite_ChPapersBlock/Sprite_ChPapersBlock.yy",},

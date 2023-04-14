@@ -13,7 +13,10 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "Object_EnemyHard",
+    "path": "objects/Object_EnemyHard/Object_EnemyHard.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -30,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite_Enemy",
-    "path": "sprites/Sprite_Enemy/Sprite_Enemy.yy",
+    "name": "Sprite_EnemyWarrior",
+    "path": "sprites/Sprite_EnemyWarrior/Sprite_EnemyWarrior.yy",
   },
   "spriteMaskId": null,
   "visible": true,
