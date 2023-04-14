@@ -79,6 +79,7 @@
     {"name":"Object_Game","order":2,"path":"objects/Object_Game/Object_Game.yy",},
     {"name":"Sprite_EnemyHard","order":18,"path":"sprites/Sprite_EnemyHard/Sprite_EnemyHard.yy",},
     {"name":"Sprite_ChSmokeBlock_hover","order":5,"path":"sprites/Sprite_ChSmokeBlock_hover/Sprite_ChSmokeBlock_hover.yy",},
+    {"name":"Sprite_WallUp66","order":20,"path":"sprites/Sprite_WallUp66/Sprite_WallUp66.yy",},
     {"name":"Sprite_LevelBar25","order":2,"path":"sprites/Sprite_LevelBar25/Sprite_LevelBar25.yy",},
     {"name":"Sprite_Down_Run","order":16,"path":"sprites/Sprite_Down_Run/Sprite_Down_Run.yy",},
     {"name":"Object_Wall","order":6,"path":"objects/Object_Wall/Object_Wall.yy",},
