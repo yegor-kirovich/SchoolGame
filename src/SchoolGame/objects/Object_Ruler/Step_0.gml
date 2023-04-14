@@ -19,8 +19,11 @@ if not global.hit{
 else if(global.hit and hit_cd > 0){
 	hit_cd -= 1
 	if stage == 0{
-		if hit_cd == 39
+		if hit_cd == 39{
 			angle_start = image_angle
+			parserx = x
+			parsery = y
+			}
 		
 		image_angle = (image_angle + 8) % 360
 		
@@ -45,7 +48,7 @@ else if(global.hit and hit_cd > 0){
 		if(coef < 0){
 			if(hit_cd >= 8){
 				image_angle = (image_angle + 4) % 360
-			}else if(image_angle + coef / 2 < 0){
+			}else if(image_angle + coef / 2 - 4 < 0){
 				image_angle = 360 + (image_angle + coef / 2 - 4) 
 			}else{
 				image_angle = image_angle + coef / 2 - 4

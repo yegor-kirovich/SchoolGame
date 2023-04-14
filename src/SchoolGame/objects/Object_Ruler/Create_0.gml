@@ -9,5 +9,5 @@ global.hit = false
 
 plusik = 0
 hit_cd = 0
-parser1 = -1
-parser2 = -1
+parserx = 0
+parsery = 0
