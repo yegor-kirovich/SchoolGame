@@ -43,6 +43,8 @@ if not global.ShopColl{
 						[Sprite_InvDash, "Рывок сквозь врагов"],
 						[Sprite_Miss, "Шанс уклонения от ударов"],
 						[Sprite_SlowD, "Замедление врагов при ударе"]]
+						
+	var 
 	
 	if global.ButtonHover != noone{
 		draw_sprite(global.ButtonHover, 1 ,x + 105, y + 750)

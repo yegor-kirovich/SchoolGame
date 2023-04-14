@@ -8,7 +8,7 @@ global.post_cond = false
 global.player_speed = 12
 
 global.dash_coold = 120
-global.dash_dur = 20
+global.dash_dur = 50
 global.dash_spd = 15
 global.dash_ctimer = 0
 global.dash_dtimer = 0
@@ -39,8 +39,8 @@ global.weapon = noone
 
 global.Left_Hand = Object_RegularHand
 global.Right_Hand = Object_RegularHand
-Right = instance_create_layer(x + global.hand_diff[0], y + global.hand_diff[1], "INSTANCES", global.Right_Hand)
-Left = instance_create_layer(x - global.hand_diff[0], y + global.hand_diff[1], "INSTANCES", global.Left_Hand)
+Right = instance_create_layer(x + global.hand_diff[0], y + global.hand_diff[1], "MainHero", global.Right_Hand)
+Left = instance_create_layer(x - global.hand_diff[0], y + global.hand_diff[1], "MainHero", global.Left_Hand)
 
 global.Hands_id = [Left.id, Right.id]
 
@@ -48,3 +48,8 @@ OldBarSprite = Sprite_LevelBar0
 AlphaFactor = 0
 step = 0
 LevelUp = false
+
+DoorColl = false
+global.DrinkColl = false
+
+door = 0
