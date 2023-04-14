@@ -50,4 +50,5 @@ if instance_exists(Object_BossDoors) and Collision(Object_BossDoors, 300) and gl
 }
 else{
 	global.replica = ""
+	global.letters = ""
 }

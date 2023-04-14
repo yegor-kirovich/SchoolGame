@@ -23,7 +23,7 @@ global.Herohp = global.Herohp_max
 global.Heroex = 0
 global.Heroex_max = 100
 global.Herolevel_max = 20
-global.Herolevel = 1
+global.Herolevel = 10
 global.TalantPoints = 1
 
 global.mouse_coord_x = mouse_x - x 

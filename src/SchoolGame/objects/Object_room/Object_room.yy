@@ -34,5 +34,5 @@
     "path": "sprites/Sprite_room1/Sprite_room1.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }
