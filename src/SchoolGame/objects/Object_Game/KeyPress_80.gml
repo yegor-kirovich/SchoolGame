@@ -21,7 +21,6 @@ if not global.ShopColl{
 		paused_surf = surface_create(w, h)
 			
 		surface_set_target(paused_surf)
-			draw_clear_alpha ( c_white , 0 );
 			draw_surface(application_surface, 0, 0)
 		surface_reset_target()
 			
