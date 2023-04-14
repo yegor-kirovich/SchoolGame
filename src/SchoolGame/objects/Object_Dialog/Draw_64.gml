@@ -4,5 +4,5 @@ if say{
 	draw_set_font(Minecraft_Name)
 	draw_text(675, 40, "Me")
 	draw_set_font(Minecraft_title)
-	draw_text_ext(675, 95, letters, 20, 600)
+	draw_text_ext(675, 95, global.letters, 20, 600)
 }

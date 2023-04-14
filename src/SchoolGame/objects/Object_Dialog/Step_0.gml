@@ -5,12 +5,12 @@ say = global.replica != ""
 
 if say{
 	visible = true
-	if say and letters != global.replica{
-		letters += string_char_at(global.replica, cur_letter);
+	if say and global.letters != global.replica{
+		global.letters += string_char_at(global.replica, cur_letter);
 		cur_letter += 1
 	}
 	else if not say{
-		letters = ""
+		global.letters = ""
 		cur_letter = 1
 	}
 }
