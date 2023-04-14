@@ -1,5 +1,6 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
+
 if room == Main_Menu{
 	if global.ShopColl{
 		Object_ChooseWeapon.visible = true

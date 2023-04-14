@@ -21,3 +21,7 @@ window_set_fullscreen(true)
 surface_resize(application_surface, w, h)
 display_set_gui_size(w, h)
 window_set_size(w, h)
+
+///
+
+global.mp_grid = 0

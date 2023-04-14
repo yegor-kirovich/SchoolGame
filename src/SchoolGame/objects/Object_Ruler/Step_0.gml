@@ -23,7 +23,12 @@ else if(global.hit and hit_cd > 0){
 			angle_start = image_angle
 			parserx = x
 			parsery = y
+			var inst = instance_create_layer(x, y, "Instances", Object_Parser)
+			with (inst){
+				image_angle = other.angle_start
 			}
+		}
+		
 		
 		image_angle = (image_angle + 8) % 360
 		

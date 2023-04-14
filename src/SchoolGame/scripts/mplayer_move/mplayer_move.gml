@@ -27,6 +27,7 @@ function mplayer_move(spd){
 		else{
 			while (!place_meeting(x, y + sign(global.dash_dir[1] * global.dash_spd), Object_Wall)) y += sign(global.dash_dir[1] * global.dash_spd)
 		}
+		
 		global.dash_dtimer--
 	}
 	else if D - A != 0 or S - W != 0{
@@ -44,5 +45,4 @@ function mplayer_move(spd){
 			while (!place_meeting(x, y + sign(yadd), Object_Wall)) y += sign(yadd)
 		}
 	}
-
 }

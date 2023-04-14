@@ -13,6 +13,7 @@ if(global.isPaused){
 }
 
 ///
+///
 
 if global.ShopColl == 1 and Pausid == 1{
 	surface_set_target(application_surface)
@@ -29,5 +30,8 @@ if (instance_exists(Object_Ruler))
 	draw_text(Object_MainHero.x + 50, Object_MainHero.y + 50, Object_Ruler.plusik)
 if (instance_exists(Object_Ruler))
 	draw_text(Object_MainHero.x + 50, Object_MainHero.y + 70, Object_Ruler.image_angle)
-if (instance_exists(Object_Ruler))
-	draw_text(Object_MainHero.x + 50, Object_MainHero.y + 90, Object_Ruler.angle_start)
+if (instance_exists(Object_Enemy)){
+	draw_text(Object_MainHero.x + 50, Object_MainHero.y + 90, Object_Enemy.a)
+	draw_text(Object_MainHero.x + 50, Object_MainHero.y + 110, sin(Object_Enemy.a))
+	draw_text(Object_MainHero.x + 50, Object_MainHero.y + 130, cos(Object_Enemy.a))
+}

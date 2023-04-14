@@ -1,5 +1,7 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
+
+
 if keyboard_check_pressed(ord("P")){
     global.isPaused = !global.isPaused;
 	
@@ -74,3 +76,5 @@ else if (global.ShopColl and not Pausid){
 	paused_surf_buff = buffer_create(w * h * 4, buffer_fixed, 1)
 	buffer_get_surface(paused_surf_buff, weapon_surf, 0)
 }
+
+
