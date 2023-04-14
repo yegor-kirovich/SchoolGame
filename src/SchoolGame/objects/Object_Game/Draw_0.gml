@@ -13,6 +13,8 @@ if(global.isPaused){
 	
 }
 
+///
+
 if global.ShopColl == 1 and Pausid == 1{
 	surface_set_target(application_surface)
 	if(surface_exists(weapon_surf)) {
@@ -25,3 +27,9 @@ if global.ShopColl == 1 and Pausid == 1{
 	surface_reset_target()
 }
 
+if (instance_exists(Object_Ruler))
+	draw_text(Object_MainHero.x + 50, Object_MainHero.y + 50, Object_Ruler.plusik)
+if (instance_exists(Object_Ruler))
+	draw_text(Object_MainHero.x + 50, Object_MainHero.y + 70, Object_Ruler.image_angle)
+if (instance_exists(Object_Ruler))
+	draw_text(Object_MainHero.x + 50, Object_MainHero.y + 90, Object_Ruler.angle_start)

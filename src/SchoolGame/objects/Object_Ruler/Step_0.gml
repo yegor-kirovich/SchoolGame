@@ -15,32 +15,48 @@ sprite_index = Sprite_Ruler
 
 if not global.hit{
 	work_with_weapon()
-	angle_start = image_angle
 }
-else{
+else if(global.hit and hit_cd > 0){
+	hit_cd -= 1
 	if stage == 0{
-		image_angle += 5
-		change += 1
-		if change == 8{
-			angle_start = image_angle - 5 * 8
+		if hit_cd == 39
+			angle_start = image_angle
+		
+		image_angle = (image_angle + 8) % 360
+		
+		if hit_cd <= 32
 			stage = 1
-			change = 0
-		}
+		
 	}
 	else if stage == 1{
-		image_angle -= 5
-		change += 1
-		if change == 16{
+		if(image_angle - 8 < 0) image_angle = 360 + (image_angle - 8)
+		else image_angle = image_angle - 8
+		
+		if hit_cd <= 16
 			stage = 2
-			change = 0
-		}
 	}
 	else if stage == 2{
-		image_angle += 5
-		change += 1
-		if change == 8{
+		var vec = point_direction(x, y, mouse_x, mouse_y) - point_direction(x, y, mouse_x, mouse_y) % 10
+			
+		plusik = angle_difference(vec, angle_start)
+		
+		var coef = plusik / 8
+		
+		if(coef < 0){
+			if(hit_cd >= 8){
+				image_angle = (image_angle + 4) % 360
+			}else if(image_angle + coef / 2 < 0){
+				image_angle = 360 + (image_angle + coef / 2 - 4) 
+			}else{
+				image_angle = image_angle + coef / 2 - 4
+			}
+		
+		} 
+		else image_angle = (image_angle + coef / 2 + 4) % 360
+		
+		if hit_cd == 0{
 			stage = 0
-			change = 0
+			global.hit = false
 		}
 	}
 	
