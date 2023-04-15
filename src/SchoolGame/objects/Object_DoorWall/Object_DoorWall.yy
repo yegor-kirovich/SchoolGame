@@ -33,5 +33,5 @@
     "path": "sprites/Sprite_DoorWall/Sprite_DoorWall.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

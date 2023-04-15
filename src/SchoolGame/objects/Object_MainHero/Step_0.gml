@@ -16,26 +16,11 @@ if global.weapon == "ruler"{
 	}
 }
 
-///
 
 var sprites = [Sprite_Right, Sprite_RightUp, Sprite_Up, Sprite_RightUp, Sprite_Right, Sprite_RightDown, Sprite_Down, Sprite_RightDown]
-var sprites_run = [Sprite_Right_Run, Sprite_RightUp_Run, Sprite_Up_Run, Sprite_RightUp_Run, Sprite_Right_Run, Sprite_RightDown_Run, Sprite_Down_Run, Sprite_RightDown_Run]
-
 global.a = point_direction(x, y, mouse_x, mouse_y)
-
-var A = keyboard_check(ord("A"));
-var D = keyboard_check(ord("D"));
-var W = keyboard_check(ord("W"));
-var S = keyboard_check(ord("S"));
-
-if (D - A != 0) or (S - W != 0)
-	sprite_index = sprites_run[global.a / 45]
-else
-	sprite_index = sprites[global.a / 45]
-
+sprite_index = sprites[global.a / 45]
 image_xscale = scale - 2 * scale * (global.a >= 90 and global.a <= 270)
-
-///
 
 if room == Main_Menu{
 	var a = Collision(Object_Shop, 0)
@@ -59,13 +44,3 @@ if instance_find(Object_EnergyDrink, 0) != noone{
 else{
 	global.DrinkColl = false
 }
-
-if instance_exists(Object_BossDoors) and Collision(Object_BossDoors, 600) and global.Herolevel < 10{
-	global.replica = global.DoorClose	
-}
-else{
-	global.replica = ""
-}
-
-if(global.dash_dtimer == 0) global.immunity = 0
-
