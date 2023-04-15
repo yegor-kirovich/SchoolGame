@@ -1,7 +1,26 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
-sprite_index = Sprite_EnemyWarrior
 var dis = distance_to_object(Object_MainHero)
+
+var _facing = sign(x - xp)
+if _facing != 0 {
+	facing = _facing
+}
+
+image_xscale = facing
+
+
+if(state == "Idle"){
+	sprite_index = Sprite_EnemyWarrior
+}else if(state == "Moving"){
+	sprite_index = Sprite_EnemyWWalk
+}else if(state = "PreAttack"){
+	sprite_index = Sprite_EnemyWPre
+}else if(state = "Attack"){
+	sprite_index = Sprite_EnemyWDash
+}
+
+///
 
 if(col_ctimer == 0 and collision_rectangle(mask_index.x, mask_index.y, mask_index.x + mask_index.sprite_width, mask_index.y + mask_index.sprite_height, Object_MainHero, false, true) == Object_MainHero.id){
 	global.Herohp--
@@ -15,10 +34,29 @@ if(enemy_hp <= 0){
 if(attack_ctimer > 0)
 	attack_ctimer--;
 	
+///
+	
 if(col_ctimer > 0)
 	col_ctimer--;
 
-if (attack_dtimer > 0){
+///
+
+if(x == xp and y == yp){
+	state = "Idle"
+}else{
+	state = "Moving"
+}
+
+///
+	
+if(attack_dtimer > 50){
+	state = "PreAttack"
+	attack_dtimer--;
+}
+
+if (attack_dtimer > 0 and attack_dtimer <= 50){
+	
+	state = "Attack"
 	
 	var ax = cos(degtorad(a))
 	var ay = -sin(degtorad(a))
@@ -57,6 +95,7 @@ if attack_dis < dis and not attack_dtimer{
 		if((attack_ctimer <= 0) and (attack_dtimer <= 0)){
 			attack_ctimer = attack_coold
 			attack_dtimer = attack_dur
+			state = "PreAttack"
 			
 			a = point_direction(x, y, Object_MainHero.x, Object_MainHero.y)
 		}
@@ -64,3 +103,6 @@ if attack_dis < dis and not attack_dtimer{
 }
 
 ///
+
+xp = x
+yp = y

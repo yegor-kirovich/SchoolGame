@@ -1,7 +1,7 @@
 /// @description Вставьте описание здесь
 // Вы можете записать свой код в этом редакторе
 
-if room == Main_Menu{
+if room == Main_Menu and not global.isPaused{
 	if global.ShopColl{
 		Object_ChooseWeapon.visible = true
 		Object_ChooseWeapon.x = camera_get_view_x(view_camera[0])

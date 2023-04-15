@@ -3,7 +3,7 @@
 attack_dis = 150
 attack_coold = 250
 attack_ctimer = 0
-attack_dur = 50
+attack_dur = 65
 attack_dtimer = 0
 attack_dash_speed = 16
 
@@ -22,6 +22,15 @@ circle_move = 0
 
 col_ctimer = 0
 col_coold = 60
+
+///
+
+facing = 1
+xp = x
+yp = y
+state = "Idle"
+
+// States: Idle, Moving, PreAttack, Attack, Dead
 
 ///
 

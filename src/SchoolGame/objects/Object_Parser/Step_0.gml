@@ -8,7 +8,7 @@ else
 	
 	
 var _list = ds_list_create();
-var _num = collision_rectangle_list(x + 190, y, x + sprite_width, y + sprite_height, Object_EnemyHard, false, true, _list, false);
+var _num = collision_rectangle_list(x + 100, y, x + sprite_width, y + sprite_height, Object_EnemyHard, false, true, _list, false);
 if _num > 0
 {
     for (var i = 0; i < _num; ++i;)
