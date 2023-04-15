@@ -13,7 +13,7 @@ if !ishothit{
 	{
 	    for (var i = 0; i < _num; ++i;)
 	    {
-	        _list[| i].enemy_hp -= global.damage
+	        _list[| i].enemy_hp--
 	    }
 	}
 	ds_list_destroy(_list);

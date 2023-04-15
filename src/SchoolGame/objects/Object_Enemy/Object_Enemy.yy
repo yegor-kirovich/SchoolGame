@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Group.Enemies",
+    "path": "folders/Objects/Group.Enemies.yy",
   },
   "parentObjectId": {
     "name": "Object_EnemyHard",
