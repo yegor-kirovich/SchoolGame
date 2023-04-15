@@ -27,7 +27,7 @@
   "origin": 4,
   "parent": {
     "name": "Sprite_Group.EnemyWarrior",
-    "path": "folders/Sprites/Sprite_Group.Enemies/Sprite_Group.EnemyWarrior.yy",
+    "path": "folders/Sprites/Sprite_Group.EnemyWarrior.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -48,7 +48,7 @@
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
-    "playbackSpeed": 4.0,
+    "playbackSpeed": 30.0,
     "playbackSpeedType": 0,
     "showBackdrop": true,
     "showBackdropImage": false,

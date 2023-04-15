@@ -28,7 +28,7 @@
   "origin": 4,
   "parent": {
     "name": "Sprite_Group.EnemyWarrior",
-    "path": "folders/Sprites/Sprite_Group.Enemies/Sprite_Group.EnemyWarrior.yy",
+    "path": "folders/Sprites/Sprite_Group.EnemyWarrior.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
