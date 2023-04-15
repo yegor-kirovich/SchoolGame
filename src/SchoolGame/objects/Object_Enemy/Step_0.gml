@@ -22,7 +22,7 @@ if(state == "Idle"){
 
 ///
 
-if(col_ctimer == 0 and collision_rectangle(mask_index.x, mask_index.y, mask_index.x + mask_index.sprite_width, mask_index.y + mask_index.sprite_height, Object_MainHero, false, true) == Object_MainHero.id){
+if(!global.immunity and col_ctimer == 0 and collision_rectangle(mask_index.x, mask_index.y, mask_index.x + mask_index.sprite_width, mask_index.y + mask_index.sprite_height, Object_MainHero, false, true) == Object_MainHero.id){
 	global.Herohp--
 	col_ctimer = col_coold
 }

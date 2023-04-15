@@ -7,7 +7,7 @@ var points = [[0.8, 8],
 			  [1.6, 16]]
 			  
 var EnemyList = [[Object_Enemy, 1],
-				 [Object_EnemyHard, 2]]
+				 [Object_EnemyWiz, 2]]
 				 
 var m = 2
 

@@ -67,3 +67,5 @@ else{
 	global.replica = ""
 }
 
+if(global.dash_dtimer == 0) global.immunity = 0
+

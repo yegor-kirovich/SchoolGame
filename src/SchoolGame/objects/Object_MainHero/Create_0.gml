@@ -3,6 +3,8 @@
 global.a = point_direction(x, y, mouse_x, mouse_y)
 scale = image_xscale
 
+global.immunity = 0
+
 global.post_cond = false
 
 global.player_speed = 12
@@ -18,7 +20,7 @@ global.cooldown_hit = 2
 
 global.miss = 0 // In percent
 
-global.Herohp_max = 5
+global.Herohp_max = 100
 global.Herohp = global.Herohp_max
 global.Heroex = 0
 global.Heroex_max = 100
